@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "de3cccf8-9b09-4e7e-9a0f-897bb2a054a8")
+	(paper "A4")
+	(title_block
+		(title "Split Keyboard")
+		(date "2025-04-25")
+		(rev "1")
+		(company "RF Electrical and Cabling")
+	)
+	(lib_symbols)
+)

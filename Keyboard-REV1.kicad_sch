@@ -1,0 +1,4520 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "59fa2596-e3b6-48c4-bd47-886ed418d5a3")
+	(paper "A4")
+	(title_block
+		(title "Split Keyboard")
+		(date "2025-04-25")
+		(rev "1")
+		(company "RF Electrical and Cabling")
+	)
+	(lib_symbols
+		(symbol "keyboard_parts:ATMEGA32U4"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 -31.75 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "ATMEGA32U4"
+				(at 0 31.75 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ATMEGA32U4_0_1"
+				(rectangle
+					(start 20.32 29.21)
+					(end -19.05 -29.21)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ATMEGA32U4_1_1"
+				(pin bidirectional line
+					(at -26.67 26.67 0)
+					(length 7.62)
+					(name "PE6/AIN0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -26.67 24.13 0)
+					(length 7.62)
+					(name "UVcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -26.67 21.59 0)
+					(length 7.62)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -26.67 19.05 0)
+					(length 7.62)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -26.67 16.51 0)
+					(length 7.62)
+					(name "UGnd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -26.67 13.97 0)
+					(length 7.62)
+					(name "UCap"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -26.67 11.43 0)
+					(length 7.62)
+					(name "VBus"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -26.67 8.89 0)
+					(length 7.62)
+					(name "PB0/SS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -26.67 6.35 0)
+					(length 7.62)
+					(name "PB1/SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -26.67 3.81 0)
+					(length 7.62)
+					(name "PB2/MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -26.67 1.27 0)
+					(length 7.62)
+					(name "PB3/MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -26.67 -1.27 0)
+					(length 7.62)
+					(name "PB7/~{RTS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -26.67 -3.81 0)
+					(length 7.62)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -26.67 -6.35 0)
+					(length 7.62)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -26.67 -8.89 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -26.67 -11.43 0)
+					(length 7.62)
+					(name "XTAL1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -26.67 -13.97 0)
+					(length 7.62)
+					(name "XTAL2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -26.67 -16.51 0)
+					(length 7.62)
+					(name "PD0/INT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -26.67 -19.05 0)
+					(length 7.62)
+					(name "PD1/INT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -26.67 -21.59 0)
+					(length 7.62)
+					(name "PD2/RXD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -26.67 -24.13 0)
+					(length 7.62)
+					(name "PD3/TXD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -26.67 -26.67 0)
+					(length 7.62)
+					(name "PD5/XCK1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 27.94 26.67 180)
+					(length 7.62)
+					(name "AVCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 27.94 24.13 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 27.94 21.59 180)
+					(length 7.62)
+					(name "AREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 19.05 180)
+					(length 7.62)
+					(name "PF0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 16.51 180)
+					(length 7.62)
+					(name "PF1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 13.97 180)
+					(length 7.62)
+					(name "PF4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 11.43 180)
+					(length 7.62)
+					(name "PF5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 8.89 180)
+					(length 7.62)
+					(name "PF6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 6.35 180)
+					(length 7.62)
+					(name "PF7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 27.94 3.81 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 27.94 1.27 180)
+					(length 7.62)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 -1.27 180)
+					(length 7.62)
+					(name "~{HWB/PE2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 -3.81 180)
+					(length 7.62)
+					(name "PC7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 -6.35 180)
+					(length 7.62)
+					(name "PC6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 -8.89 180)
+					(length 7.62)
+					(name "PB6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 -11.43 180)
+					(length 7.62)
+					(name "PB5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 -13.97 180)
+					(length 7.62)
+					(name "PB4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 -16.51 180)
+					(length 7.62)
+					(name "T0/PD7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 -19.05 180)
+					(length 7.62)
+					(name "T1/PD6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 -21.59 180)
+					(length 7.62)
+					(name "ICP1/PD4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 27.94 -24.13 180)
+					(length 7.62)
+					(name "AVCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 27.94 -26.67 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "keyboard_parts:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SM* C? C1-1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0.762) (xy 2.54 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.762) (xy 2.54 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "keyboard_parts:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+5V"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.254 0.254)
+							)
+						)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 -1.651) (xy 0.635 -1.016) (xy -0.635 -1.016) (xy 0 -1.651)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.016) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "keyboard_parts:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R? SM0603 SM0805 R?-* SM1206"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 3.81)
+					(end 1.016 -3.81)
+					(stroke
+						(width 0.3048)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 6.35 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "keyboard_parts:SW_PUSH"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 3.81 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_PUSH"
+				(at 0 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_PUSH_0_1"
+				(rectangle
+					(start -4.318 1.27)
+					(end 4.318 1.524)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.524) (xy -0.762 2.286) (xy 0.762 2.286) (xy 1.016 1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive inverted
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "keyboard_parts:USB_mini_micro_B"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -10.16 -1.27 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "USB_mini_micro_B"
+				(at -3.81 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB_mini_micro_B_0_1"
+				(rectangle
+					(start -8.89 5.08)
+					(end -1.27 -10.16)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB_mini_micro_B_1_1"
+				(pin power_out line
+					(at 3.81 3.81 180)
+					(length 5.08)
+					(name "VUSB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 1.27 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 -1.27 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -3.81 180)
+					(length 5.08)
+					(name "ID"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 3.81 -6.35 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -8.89 180)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "keyboard_parts:VUSB"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -0.762 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VUSB"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VUSB_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "VUSB"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.254 0.254)
+							)
+						)
+					)
+				)
+			)
+			(symbol "VUSB_0_1"
+				(circle
+					(center 0 1.524)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.016) (xy 0 1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "keyboard_parts:XTAL_GND"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "XTAL_GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XTAL_GND_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.3048)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "XTAL_GND_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 81.28 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1097260e-be17-4dbc-a91a-54f669edf2cc")
+	)
+	(junction
+		(at 95.25 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1900e9a2-c2c9-4e4a-b6b4-f2a8c420f042")
+	)
+	(junction
+		(at 63.5 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34e57269-dd9c-4f2e-a990-51c350edc104")
+	)
+	(junction
+		(at 60.96 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3dbb59e8-3d5b-4ec1-a8c1-98b5dd454aea")
+	)
+	(junction
+		(at 38.1 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53444cdf-2d1c-4a8c-b604-92f9e67c7435")
+	)
+	(junction
+		(at 50.8 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6094bc06-023b-45dd-9ca4-84f1ec4ee75c")
+	)
+	(junction
+		(at 25.4 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "765fd044-b9be-4543-b143-4718ae358084")
+	)
+	(junction
+		(at 80.01 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b399ff5-4fcd-4ea0-a82c-4ddcab3f5011")
+	)
+	(junction
+		(at 38.1 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a27d7217-7e6f-47a0-8f98-916069c90181")
+	)
+	(junction
+		(at 52.07 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8d714dc-fad8-41a6-bb3e-b329cfd535b3")
+	)
+	(junction
+		(at 50.8 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2e24ffc-ef83-4158-b93a-a589fb231f08")
+	)
+	(junction
+		(at 71.12 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4faf86b-2cb8-4b23-a1aa-0d3e9cb4c0aa")
+	)
+	(junction
+		(at 81.28 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca0c9314-a3de-4c4b-ac22-d3513e18cdb6")
+	)
+	(junction
+		(at 52.07 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce143ad3-1e80-4b78-9bbb-770959936d19")
+	)
+	(junction
+		(at 63.5 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce29e065-a5de-4ba8-86bb-7bc0a8573bb3")
+	)
+	(junction
+		(at 25.4 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cef94141-c774-4d6e-8be8-f8405803df9a")
+	)
+	(junction
+		(at 50.8 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb5d9109-1a51-45b7-84f4-31a92f1aecce")
+	)
+	(wire
+		(pts
+			(xy 50.8 20.32) (xy 63.5 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "010a7708-b688-46b2-9e05-85dd239e7999")
+	)
+	(wire
+		(pts
+			(xy 78.74 76.2) (xy 82.55 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a67d9db-42ea-4140-950c-b8ce1df240f0")
+	)
+	(wire
+		(pts
+			(xy 50.8 95.25) (xy 107.95 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f2d39cc-7835-44b6-9ba1-f6d8cf5ab8b5")
+	)
+	(wire
+		(pts
+			(xy 162.56 80.01) (xy 170.18 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f54d9de-59b7-432e-9aca-bf4f2fc5c971")
+	)
+	(wire
+		(pts
+			(xy 162.56 110.49) (xy 170.18 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14612942-252b-405f-8c04-213ddecb59b0")
+	)
+	(wire
+		(pts
+			(xy 68.58 97.79) (xy 71.12 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c5bd463-0834-4dce-a066-1f94b3b332b9")
+	)
+	(wire
+		(pts
+			(xy 25.4 20.32) (xy 38.1 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f9f2d2d-d602-45bb-ba78-9333878f39b1")
+	)
+	(wire
+		(pts
+			(xy 162.56 82.55) (xy 170.18 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "216ac249-f4cd-4b77-937d-2ae4cc707c57")
+	)
+	(wire
+		(pts
+			(xy 52.07 69.85) (xy 52.07 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21bd09f9-8a24-45ca-a525-0e98a1130d57")
+	)
+	(wire
+		(pts
+			(xy 91.44 69.85) (xy 107.95 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23e32a1e-affa-437a-8038-7b0f32635ea9")
+	)
+	(wire
+		(pts
+			(xy 50.8 97.79) (xy 50.8 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25108fc7-f71a-4441-8c5b-1c212b34db03")
+	)
+	(wire
+		(pts
+			(xy 63.5 20.32) (xy 76.2 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29f690d4-34c6-43f3-baa9-476a5937b295")
+	)
+	(wire
+		(pts
+			(xy 95.25 87.63) (xy 107.95 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aab2a30-c528-42ab-a740-5331678ec127")
+	)
+	(wire
+		(pts
+			(xy 25.4 30.48) (xy 25.4 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46b809ef-4e01-4130-871d-da0d5075cf35")
+	)
+	(wire
+		(pts
+			(xy 80.01 87.63) (xy 80.01 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48396bdb-12a7-4db2-8e06-3f69dc2fe2ab")
+	)
+	(wire
+		(pts
+			(xy 52.07 62.23) (xy 88.9 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "504221b2-0b3d-4f3a-b415-12830d88bfbf")
+	)
+	(wire
+		(pts
+			(xy 25.4 16.51) (xy 25.4 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b0de4bd-776e-4d98-a353-6946bf4420ba")
+	)
+	(wire
+		(pts
+			(xy 95.25 90.17) (xy 107.95 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d90de59-fa05-4be6-a8ad-8458778fc904")
+	)
+	(wire
+		(pts
+			(xy 52.07 59.69) (xy 107.95 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64766cc1-e959-452d-abe5-f98ff006ce06")
+	)
+	(wire
+		(pts
+			(xy 52.07 64.77) (xy 88.9 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e6f9d8-6180-466f-a02a-b6f207b1e868")
+	)
+	(wire
+		(pts
+			(xy 101.6 62.23) (xy 107.95 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b3e77be-38e5-4384-a54e-f0d3bad1efef")
+	)
+	(wire
+		(pts
+			(xy 50.8 97.79) (xy 53.34 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d3f6757-a401-4930-b06d-f374dd9113f9")
+	)
+	(wire
+		(pts
+			(xy 162.56 59.69) (xy 170.18 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d9a55c5-63da-4da7-99ba-ef92486958f8")
+	)
+	(wire
+		(pts
+			(xy 71.12 97.79) (xy 107.95 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91158604-b7ed-47e1-ab7e-b9706f373b92")
+	)
+	(wire
+		(pts
+			(xy 78.74 67.31) (xy 81.28 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93c46cdf-03f6-493b-9259-a8a253887a8a")
+	)
+	(wire
+		(pts
+			(xy 179.07 85.09) (xy 185.42 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a223d4f7-c329-48f7-83ce-7343b6ba447f")
+	)
+	(wire
+		(pts
+			(xy 74.93 87.63) (xy 80.01 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4a0183a-5a3e-4f2d-9b3c-1ab8da9ae7f1")
+	)
+	(wire
+		(pts
+			(xy 101.6 64.77) (xy 107.95 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a62ebf54-71bb-456b-a03f-db328694f4fd")
+	)
+	(wire
+		(pts
+			(xy 50.8 107.95) (xy 60.96 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a83b8594-ca22-461f-bbd5-cfed3dba0c2b")
+	)
+	(wire
+		(pts
+			(xy 81.28 67.31) (xy 107.95 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afc7f204-bda6-417b-afcb-2a8e9e2ba34d")
+	)
+	(wire
+		(pts
+			(xy 50.8 30.48) (xy 63.5 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2d4e1b9-7ee9-4a50-822e-2a6322c04eac")
+	)
+	(wire
+		(pts
+			(xy 38.1 20.32) (xy 50.8 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4a6931e-b786-46f8-9d76-8bb3a792a1a0")
+	)
+	(wire
+		(pts
+			(xy 25.4 30.48) (xy 38.1 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ae20f2-17bb-4eac-92b2-5515b115cc13")
+	)
+	(wire
+		(pts
+			(xy 60.96 107.95) (xy 71.12 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba9847fd-c1ea-4e0c-936b-d9ba0933971d")
+	)
+	(wire
+		(pts
+			(xy 95.25 76.2) (xy 95.25 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc40cf6f-8fea-4d1e-b4fb-e62d4737f4f7")
+	)
+	(wire
+		(pts
+			(xy 81.28 67.31) (xy 81.28 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4e6645b-84ce-48e9-aa4e-a17cf92ac82a")
+	)
+	(wire
+		(pts
+			(xy 80.01 92.71) (xy 107.95 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4f7cfb9-00b1-49e0-9c5d-4d8ab29be815")
+	)
+	(wire
+		(pts
+			(xy 60.96 102.87) (xy 60.96 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dba56295-2621-4b58-bd5c-ae534df8dfd2")
+	)
+	(wire
+		(pts
+			(xy 63.5 30.48) (xy 76.2 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dda02641-faec-4035-a551-2937b4b3057f")
+	)
+	(wire
+		(pts
+			(xy 162.56 107.95) (xy 170.18 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7ec1fb5-7788-4868-9e7d-162e8a543d40")
+	)
+	(wire
+		(pts
+			(xy 52.07 69.85) (xy 81.28 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb2c1bfd-7118-4405-8a8b-80b6fb827931")
+	)
+	(wire
+		(pts
+			(xy 162.56 57.15) (xy 170.18 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f30bcd5d-689b-4665-aec4-203a855cadb0")
+	)
+	(wire
+		(pts
+			(xy 52.07 55.88) (xy 52.07 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f488abe1-1aee-4cfb-9aaf-9722427227c7")
+	)
+	(wire
+		(pts
+			(xy 38.1 30.48) (xy 50.8 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb429aa4-cad3-4a31-b271-90b301112ed5")
+	)
+	(wire
+		(pts
+			(xy 162.56 85.09) (xy 166.37 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc663cf-32ae-4ea7-b7d5-f7fc3f23bc4c")
+	)
+	(symbol
+		(lib_id "keyboard_parts:GND")
+		(at 170.18 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0102f084-caf1-4803-b5c9-0e5a8f8e071e")
+		(property "Reference" "#PWR015"
+			(at 168.91 80.01 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.768 80.01 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 80.01 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 80.01 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5deb95d5-841b-468f-a377-870cd600d796")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:VUSB")
+		(at 25.4 16.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d444b59-c8bf-4daa-bfcd-578433aac7c6")
+		(property "Reference" "#PWR03"
+			(at 25.4 17.272 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VUSB"
+			(at 25.4 12.7 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 16.51 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 16.51 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe027eee-494a-4260-bf6f-75ac0f07e746")
+		)
+		(instances
+			(project ""
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:GND")
+		(at 170.18 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18c50a3f-a306-4e9f-bec3-2d5d5ce68bf3")
+		(property "Reference" "#PWR010"
+			(at 168.91 59.69 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.768 59.69 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 59.69 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 59.69 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76b6e2fb-81ac-4263-b7fe-1140e1b58904")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:VUSB")
+		(at 170.18 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1904eebd-d90a-4e6a-98a3-93c86863aa14")
+		(property "Reference" "#PWR012"
+			(at 169.418 107.95 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VUSB"
+			(at 176.276 107.95 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 107.95 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 107.95 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "182b539c-d9ec-4ab4-b1c7-ff8ccef162ab")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:GND")
+		(at 60.96 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1908c080-cbad-49b2-85a6-cdad5440746c")
+		(property "Reference" "#PWR01"
+			(at 60.96 106.68 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 106.68 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 107.95 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 107.95 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04e40ed9-3538-47ee-9987-b1d6c437ead0")
+		)
+		(instances
+			(project ""
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:GND")
+		(at 78.74 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20ac8380-4a63-4978-b84d-f3db26b7067b")
+		(property "Reference" "#PWR08"
+			(at 78.74 66.04 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 66.04 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 67.31 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 67.31 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57026a49-e506-4b0c-acd0-bc00ec8cd3ec")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:C")
+		(at 86.36 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bc205aa-4318-416c-9996-7f2cb4dbf44e")
+		(property "Reference" "C8"
+			(at 86.36 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 86.36 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 69.85 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 69.85 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a33b43bb-089b-45d9-80de-1974a0a88d10")
+		)
+		(pin "2"
+			(uuid "9e048978-ea70-4eb0-886a-61254c9e2210")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:C")
+		(at 25.4 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f8a0383-b622-4b3b-8b6f-b8887a24069d")
+		(property "Reference" "C3"
+			(at 29.21 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 29.21 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 25.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 25.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28d38cc2-5904-4120-8523-8e57d190e5b3")
+		)
+		(pin "2"
+			(uuid "a235c389-5868-4bdc-bfe9-6eafdb77903a")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:C")
+		(at 50.8 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "389793c7-3411-4d38-a70c-a507bc8dcafb")
+		(property "Reference" "C1"
+			(at 54.61 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22p"
+			(at 54.61 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed13c146-f6b8-44dc-9366-268cc5bb01bb")
+		)
+		(pin "2"
+			(uuid "9720e648-c04a-47c2-9025-0acbb22737cf")
+		)
+		(instances
+			(project ""
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:XTAL_GND")
+		(at 60.96 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3976cf6c-7ac5-4514-9ad1-a607b97c36d3")
+		(property "Reference" "X1"
+			(at 60.96 90.17 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "XTAL_GND"
+			(at 60.96 92.71 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 97.79 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 97.79 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e10674a-c259-41b8-8064-f4782228f8a5")
+		)
+		(pin "3"
+			(uuid "b321f6c6-02fe-4641-bdda-f773fa6b2ee8")
+		)
+		(pin "2"
+			(uuid "281c91ca-603d-4982-8e6e-87eb494b436d")
+		)
+		(instances
+			(project ""
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3"
+					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:C")
+		(at 76.2 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d585768-02a1-4cef-b1b9-39a5d0814a76")
+		(property "Reference" "C7"
+			(at 80.01 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 80.01 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 25.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 25.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92b2d064-6c1b-487a-8c8b-f67b468496dc")
+		)
+		(pin "2"
+			(uuid "d952cf8a-2b05-4540-8625-d80ebf1da9e6")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:GND")
+		(at 170.18 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d269e24-46fa-4f87-a8cc-ebf5797032c3")
+		(property "Reference" "#PWR013"
+			(at 168.91 110.49 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.768 110.49 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bf89b1d-f06f-4b9d-918e-01d35bed07d4")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:SW_PUSH")
+		(at 87.63 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "584cb9d0-97b7-415b-9d5c-1d9a6d88deac")
+		(property "Reference" "SW1"
+			(at 87.63 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 87.63 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 87.63 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 87.63 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "519ba733-f00c-4abe-94c2-98d995a42b2d")
+		)
+		(pin "2"
+			(uuid "e5fa1d7b-1f9c-4a55-8911-ff9cb3fe2032")
+		)
+		(instances
+			(project ""
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:C")
+		(at 50.8 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c87938a-1eaa-4823-b897-57e0092e4c4c")
+		(property "Reference" "C5"
+			(at 54.61 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 54.61 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 25.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 25.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6c3591e-d31a-44f2-bdb8-9ce6132a2170")
+		)
+		(pin "2"
+			(uuid "2b2eb76a-b599-4a97-86ae-05cc3a6f2dc0")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:C")
+		(at 71.12 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "628a6028-f36f-4899-85f5-c677abc7176e")
+		(property "Reference" "C2"
+			(at 74.93 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22p"
+			(at 74.93 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4758eec5-8041-4da3-af19-7c7039ce2b46")
+		)
+		(pin "2"
+			(uuid "a5d38658-5dc6-42c7-8f50-86015c1cb6f2")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:R")
+		(at 172.72 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d55d45d-eee6-4c67-beff-025cfc9a2b78")
+		(property "Reference" "R2"
+			(at 170.688 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 174.498 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e341995-358f-4f63-b1de-aa9ae25e4659")
+		)
+		(pin "2"
+			(uuid "dae02a56-01ab-4ed4-a796-7cae0a15c275")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:C")
+		(at 38.1 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8885bc77-34c7-472c-a5aa-a8d3790bba76")
+		(property "Reference" "C4"
+			(at 41.91 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 41.91 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc72df0f-8535-4d78-b5ae-f401d415132a")
+		)
+		(pin "2"
+			(uuid "2a86f3a2-2f04-419b-82ec-60f00ac4bc47")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:GND")
+		(at 74.93 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afc05e50-07dd-43d7-92e0-f4453b225a8d")
+		(property "Reference" "#PWR05"
+			(at 74.93 86.36 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 86.36 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 87.63 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 87.63 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1abc038-dd30-45eb-a118-8230a237cca6")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:GND")
+		(at 185.42 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "beac8bd2-1c32-4945-b4fd-02ca1789a8b2")
+		(property "Reference" "#PWR06"
+			(at 185.42 83.82 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 83.82 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6663310c-9156-43ce-97ca-772e1c2de172")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:VUSB")
+		(at 52.07 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3db676d-174d-4899-a1d0-c4b2a38e7e66")
+		(property "Reference" "#PWR07"
+			(at 52.07 56.642 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VUSB"
+			(at 52.07 52.07 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 55.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 55.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4d8d0f9-36cc-4acd-9251-a4ae93df1b5a")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:R")
+		(at 95.25 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c98dc904-6478-47ae-87e5-01f3911f676d")
+		(property "Reference" "R3"
+			(at 94.742 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22"
+			(at 98.298 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 62.23 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 62.23 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9cf31b3b-df63-467e-8069-4f99e212909e")
+		)
+		(pin "2"
+			(uuid "ecb0393c-012a-45dd-9005-16d9d2995f27")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:VUSB")
+		(at 170.18 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cbab1e15-9b91-4857-b299-6e6d946ec47f")
+		(property "Reference" "#PWR014"
+			(at 169.418 82.55 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VUSB"
+			(at 176.276 82.55 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5255b52-a883-41fd-8d89-3212ce1adb8f")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:R")
+		(at 95.25 64.77 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4737844-71f7-43ad-8f59-341de5de6ff3")
+		(property "Reference" "R4"
+			(at 93.472 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 97.028 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 64.77 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 64.77 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27197291-58d9-4a0c-bd18-932d5a233bee")
+		)
+		(pin "2"
+			(uuid "40409763-64d9-4d72-8584-e53620214a20")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:VUSB")
+		(at 170.18 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df57b06a-06c6-48f8-baae-90c64204bb36")
+		(property "Reference" "#PWR011"
+			(at 169.418 57.15 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VUSB"
+			(at 176.276 57.15 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 57.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 57.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7c24abe-9b56-4931-92e8-eba199468c9d")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:VUSB")
+		(at 78.74 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df9884dc-62a6-48cd-a6a7-560ebfa58fe6")
+		(property "Reference" "#PWR04"
+			(at 79.502 76.2 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VUSB"
+			(at 75.692 74.676 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bd27339-1229-4fe7-8cea-fe23406c2790")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:R")
+		(at 88.9 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e137d04f-6d31-4660-b532-35de2e2abbbd")
+		(property "Reference" "R1"
+			(at 86.868 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 90.678 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75e024d0-bf4e-425b-bd89-b1e4c7acd0c5")
+		)
+		(pin "2"
+			(uuid "940e1375-f85e-48b8-ad87-1f25ca45798b")
+		)
+		(instances
+			(project ""
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:USB_mini_micro_B")
+		(at 48.26 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e45916cb-001e-44d8-ba5f-5f58a6445cc5")
+		(property "Reference" "J1"
+			(at 43.18 55.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "USB_mini_micro_B"
+			(at 44.45 57.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 63.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 63.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "710045f9-797e-4b75-b0d0-1b01853e3cdc")
+		)
+		(pin "5"
+			(uuid "acd6f5b6-2873-4adf-95a0-e9e77c083251")
+		)
+		(pin "6"
+			(uuid "220e5ccd-51e6-4ec0-9807-c41050471cb5")
+		)
+		(pin "4"
+			(uuid "9f1a9fc3-a0cd-46d1-b83e-7968037af51b")
+		)
+		(pin "3"
+			(uuid "7643e944-32a0-406a-965f-a5e5eeaf9c44")
+		)
+		(pin "1"
+			(uuid "6c030afe-2fe7-412f-89ba-6248832557d0")
+		)
+		(instances
+			(project ""
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:GND")
+		(at 25.4 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea74d0ad-a0dd-4c70-8435-acf060562960")
+		(property "Reference" "#PWR02"
+			(at 25.4 36.83 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.4 36.83 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 38.1 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 38.1 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f6e0779-cc62-4577-90ba-b646010439d2")
+		)
+		(instances
+			(project ""
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:C")
+		(at 63.5 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef89450d-59a7-4762-af12-fd4ae171771a")
+		(property "Reference" "C6"
+			(at 67.31 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 67.31 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 25.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 25.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2e17d34-ad2c-4cbd-956c-f9970e207f53")
+		)
+		(pin "2"
+			(uuid "f2530ecf-3a55-4600-b282-776fab185133")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:VUSB")
+		(at 95.25 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa4e8d6d-62ac-4294-aff9-479dfef45d7e")
+		(property "Reference" "#PWR09"
+			(at 96.012 90.17 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VUSB"
+			(at 91.44 90.17 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 90.17 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 90.17 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69ba5e96-495a-404f-b2d6-e36877c5dd39")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:ATMEGA32U4")
+		(at 134.62 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe977e17-c107-40c9-a7dd-c1c15485e612")
+		(property "Reference" "U1"
+			(at 135.255 49.53 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "ATMEGA32U4"
+			(at 135.255 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 83.82 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 83.82 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f3e6ebc-8540-49b7-bcd9-949b71747ad5")
+		)
+		(pin "1"
+			(uuid "0128795b-03fa-4807-b98b-291a90fa9bbc")
+		)
+		(pin "10"
+			(uuid "3fd9b10c-b8bf-47dd-bed4-e73cdc5f1f91")
+		)
+		(pin "17"
+			(uuid "b715fe4a-ffd0-425e-b9e0-3954050d1043")
+		)
+		(pin "13"
+			(uuid "5ba390ec-7221-4745-8f46-b00d9a404908")
+		)
+		(pin "22"
+			(uuid "72a3804a-70d8-4a1b-a48c-bd8aee164d1a")
+		)
+		(pin "9"
+			(uuid "0514d9f5-b8f6-4bc9-a018-046feed3a8a1")
+		)
+		(pin "18"
+			(uuid "e367d819-96f5-4e4d-9200-ba29c636c7c5")
+		)
+		(pin "3"
+			(uuid "0bf5ddb5-6aaf-4d30-9929-86effe591696")
+		)
+		(pin "4"
+			(uuid "eb5b3df1-4d20-4f77-90cd-84ff0bdfb869")
+		)
+		(pin "41"
+			(uuid "ddc8c4c8-f549-4e8a-850f-2b741ef43e3a")
+		)
+		(pin "39"
+			(uuid "2d7b172a-e5fb-4cc3-8c7d-1299040eac0e")
+		)
+		(pin "21"
+			(uuid "99e38ff3-4069-4dea-96a1-d7818bd44134")
+		)
+		(pin "38"
+			(uuid "aeae7a67-1379-47ea-b586-b4c23e32fd35")
+		)
+		(pin "37"
+			(uuid "4c57b52e-1024-4db0-8795-0b9bb36fc483")
+		)
+		(pin "6"
+			(uuid "20ae5eea-74d2-4c1e-b26f-487d69874709")
+		)
+		(pin "8"
+			(uuid "960455c4-3cff-45d6-bd4e-77a39ec8be71")
+		)
+		(pin "36"
+			(uuid "90a73b6e-ba62-41e3-a2d9-0fadb6cc4db7")
+		)
+		(pin "35"
+			(uuid "dd27c95f-976b-40f2-9902-41b2032f9ad5")
+		)
+		(pin "16"
+			(uuid "5910b8b0-48cd-4c0b-98c7-b028c7dc8568")
+		)
+		(pin "44"
+			(uuid "351f365b-ef08-4436-b2bc-633de07bb90c")
+		)
+		(pin "43"
+			(uuid "0c53bfe1-8be9-45a2-b480-d20959f2beba")
+		)
+		(pin "5"
+			(uuid "28fc49ad-bbc7-495c-aabe-bb2f9756e583")
+		)
+		(pin "7"
+			(uuid "538fe175-6400-41a3-a2b9-a5479e998847")
+		)
+		(pin "11"
+			(uuid "bea580d3-6a7b-4c6b-9e40-98d861dbcedf")
+		)
+		(pin "12"
+			(uuid "7d1f2085-3d02-4bce-83ac-d32b856e6770")
+		)
+		(pin "14"
+			(uuid "eb1a9a99-2eab-43e9-8cca-d40e75849db0")
+		)
+		(pin "15"
+			(uuid "383970a5-9448-46ae-891f-09ea0ab41f95")
+		)
+		(pin "19"
+			(uuid "9feecca4-e364-4088-b31f-c8880150c5bb")
+		)
+		(pin "20"
+			(uuid "72c78dcb-1491-498e-9820-8411db395710")
+		)
+		(pin "42"
+			(uuid "83871fc4-d550-4156-bfe9-3652ea706afa")
+		)
+		(pin "40"
+			(uuid "2b66a8bb-a8e4-43c5-8b5d-4366b4833f27")
+		)
+		(pin "30"
+			(uuid "7fb0010b-ed31-4f1e-bae7-eaafc5fd7aa7")
+		)
+		(pin "32"
+			(uuid "085948ea-4ecc-41f5-8e84-445dd5ba22d5")
+		)
+		(pin "31"
+			(uuid "6447fe0c-e8a6-4dc9-b31b-0b5349e461c2")
+		)
+		(pin "24"
+			(uuid "b53ea543-15e2-4eab-a5ec-f4285a2d353c")
+		)
+		(pin "28"
+			(uuid "d9ab15e7-ac96-411d-b717-309d911ce7c3")
+		)
+		(pin "25"
+			(uuid "db47b52b-f479-4686-8a28-d6dd4c3c2a21")
+		)
+		(pin "26"
+			(uuid "2fed1711-2aee-4453-b64f-6f7f635cd42e")
+		)
+		(pin "23"
+			(uuid "d0d19958-1791-4241-b3fe-f900d16b6c8f")
+		)
+		(pin "29"
+			(uuid "b0b57d55-8c20-4d33-9a4f-ea24ae286411")
+		)
+		(pin "27"
+			(uuid "e8f74dcb-5a85-4fc2-bab6-6c9a10f9183c")
+		)
+		(pin "34"
+			(uuid "f19be81a-e6f8-4753-b825-b0393100c5c0")
+		)
+		(pin "33"
+			(uuid "bedcd1c2-ba65-4d4b-a8dc-454c98c07ba1")
+		)
+		(instances
+			(project ""
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 240.03 19.05)
+		(size 38.1 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 41 255 211 1.0000)
+		)
+		(uuid "b99f820c-a26c-4ad6-ae42-8735410c0775")
+		(property "Sheetname" "Keyboard_Left_Slave"
+			(at 240.03 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Keyboard_Left_Slave.kicad_sch"
+			(at 240.03 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
