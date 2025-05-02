@@ -10,5 +10,8258 @@
 		(rev "1")
 		(company "RF Electrical and Cabling")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "keyboard_parts:D"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -3.81 -1.27 90)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 3.81 -1.27 90)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -2.54 -2.54) (xy 2.54 -2.54) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at 0 1.27 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "keyboard_parts:KEYSW"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K?"
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "KEYSW"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KEYSW_0_1"
+				(polyline
+					(pts
+						(xy -5.08 1.27) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KEYSW_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 210.82 102.9128)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0106285e-3eae-4cf5-83af-34e747be97a3")
+	)
+	(junction
+		(at 63.5 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0270539a-04cb-49bd-b18e-5b62b6cb70f7")
+	)
+	(junction
+		(at 88.9 64.8128)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0351c1ea-3e26-46e7-81c1-cbd7b797e2f7")
+	)
+	(junction
+		(at 165.1 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "050541bb-8ecb-4781-b3ba-28103aa2ff21")
+	)
+	(junction
+		(at 134.62 83.8628)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a858fe7-02ba-4444-ae65-7ed9d032b671")
+	)
+	(junction
+		(at 160.02 83.8628)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f075417-8352-41fe-8253-701387cdaa6a")
+	)
+	(junction
+		(at 114.3 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f2fcfb5-a41a-478a-ba1a-9cb719bc0973")
+	)
+	(junction
+		(at 139.7 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10dc5f98-24c7-4028-ae73-94e70e6bfea6")
+	)
+	(junction
+		(at 63.5 64.8128)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1418acb9-28a9-4403-ba7e-a2864fe14cd8")
+	)
+	(junction
+		(at 190.5 121.9628)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15e8d4eb-15d3-4bfd-acb7-dc2ae9be70ec")
+	)
+	(junction
+		(at 165.1 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16c499dd-95b1-49af-b511-8f2e758245fd")
+	)
+	(junction
+		(at 114.3 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1722f46b-a80d-4cf8-8580-71d7d6f8189f")
+	)
+	(junction
+		(at 185.42 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "178dd640-12c7-4ef8-b572-ba330e0d609f")
+	)
+	(junction
+		(at 88.9 121.9628)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "179bb7cd-957f-4624-a9a7-f3547543886b")
+	)
+	(junction
+		(at 185.42 64.8128)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f38aef7-5f2b-441d-b353-01356802cd58")
+	)
+	(junction
+		(at 88.9 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ffedde9-25e5-4e7a-a4d0-8865ad69e99a")
+	)
+	(junction
+		(at 114.3 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21585248-31ad-42a6-87fe-aa4efeb0ecc7")
+	)
+	(junction
+		(at 165.1 102.9128)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "257dbeb1-d05d-4e49-adb7-bd24a620376b")
+	)
+	(junction
+		(at 114.3 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2660dfcc-5ea3-4e94-9a01-f52562d1db6b")
+	)
+	(junction
+		(at 190.5 102.9128)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29806eb8-7295-4cfd-9dee-f1080d71a3b7")
+	)
+	(junction
+		(at 83.82 64.8128)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2dad7449-2189-484c-aa4b-9feb4424d4d4")
+	)
+	(junction
+		(at 165.1 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3413f49a-6c9d-4e4a-9de5-6b107affdc8c")
+	)
+	(junction
+		(at 210.82 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38636342-2979-477a-8477-9e1048bc2757")
+	)
+	(junction
+		(at 139.7 64.8128)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a713426-e746-48ec-b788-590a47b35c43")
+	)
+	(junction
+		(at 109.22 64.8128)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ab86365-4c07-48c7-a69a-594f75987ba2")
+	)
+	(junction
+		(at 185.42 102.9128)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bc5201a-58e9-4bde-baf7-cd65c48d7d73")
+	)
+	(junction
+		(at 160.02 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d3b3d08-c8fb-4cbb-9565-953a8a3c35be")
+	)
+	(junction
+		(at 83.82 83.8628)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e9e5594-171e-459d-be68-1452cf0accf5")
+	)
+	(junction
+		(at 109.22 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4817def9-ea67-49e3-8a20-7d3a300a585d")
+	)
+	(junction
+		(at 63.5 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a919aa2-aa2a-4fc2-a190-1b8f202f764f")
+	)
+	(junction
+		(at 165.1 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bc75e9a-a801-479c-bebb-9b9bf932053f")
+	)
+	(junction
+		(at 134.62 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d48d113-3cec-4b98-83a4-443f9d093464")
+	)
+	(junction
+		(at 114.3 83.8628)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5160e845-9d60-47d1-a36d-43efe3cbaeda")
+	)
+	(junction
+		(at 114.3 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58242d93-c1e6-4ca0-bff1-b3a601516c93")
+	)
+	(junction
+		(at 63.5 102.9128)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "612602cb-d4c1-43fc-aad3-c3ceab326c26")
+	)
+	(junction
+		(at 160.02 64.8128)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "642e3f29-c912-4293-810a-dda215ea1db9")
+	)
+	(junction
+		(at 160.02 102.9128)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66d05a21-5d50-4149-aa00-c2560fdb4ac5")
+	)
+	(junction
+		(at 88.9 83.8628)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69c48559-ec16-41a3-9184-cd69839f5d22")
+	)
+	(junction
+		(at 83.82 121.9628)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a582ace-35ba-4cf9-9cb6-7c8f5674b46c")
+	)
+	(junction
+		(at 88.9 102.9128)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bb37256-5737-41e4-8060-40c40368fc7f")
+	)
+	(junction
+		(at 165.1 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6eabb15c-25b3-4595-932f-6965f6f4d734")
+	)
+	(junction
+		(at 185.42 83.8628)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "728d982d-e087-4777-9128-b02d462b8b12")
+	)
+	(junction
+		(at 134.62 121.9628)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "759949f4-0d1c-40f6-a4fb-d1caa3c5d27a")
+	)
+	(junction
+		(at 210.82 83.8628)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83e640cd-fa4b-4e3c-8c09-ccfe41f3864c")
+	)
+	(junction
+		(at 63.5 121.9628)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b641b5d-cad9-4682-920d-68974ba03df4")
+	)
+	(junction
+		(at 83.82 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e442e80-451e-4975-8e0a-d342961f924d")
+	)
+	(junction
+		(at 114.3 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f45041f-d6e0-43d1-95a1-1c36b8b1d22e")
+	)
+	(junction
+		(at 210.82 121.9628)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "903afaf4-b89a-4abc-96c0-db7ebeea4d09")
+	)
+	(junction
+		(at 139.7 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90846d3a-14de-4886-a83e-29d5e4a5e341")
+	)
+	(junction
+		(at 109.22 83.8628)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9134ab7a-fe7c-4972-bf34-47e14a17dc62")
+	)
+	(junction
+		(at 139.7 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "935da519-da47-4180-bc06-415e95901ac7")
+	)
+	(junction
+		(at 185.42 121.9628)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95658031-66c2-4da5-ae98-3380e228d8c8")
+	)
+	(junction
+		(at 88.9 141.0128)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "973f7fbf-d315-4cf4-b71a-678f68e363f7")
+	)
+	(junction
+		(at 88.9 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "984e0ac2-a3f6-4960-8487-f308472fb207")
+	)
+	(junction
+		(at 88.9 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98bcf9a5-f5a2-4c0e-9877-a87e84c08206")
+	)
+	(junction
+		(at 63.5 141.0128)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c565784-ca51-40e4-9a40-745aefce4eec")
+	)
+	(junction
+		(at 165.1 121.9628)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fe52e60-b8bc-4f07-8680-6ca81f8051b0")
+	)
+	(junction
+		(at 134.62 102.9128)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6b96b4b-8709-4e7d-8312-a9ca4672a0fb")
+	)
+	(junction
+		(at 139.7 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9547dbb-3fb2-4cb2-abf4-516d096869b7")
+	)
+	(junction
+		(at 63.5 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acd24a13-ea65-4ce5-8df1-f02da2a7ed09")
+	)
+	(junction
+		(at 114.3 141.0128)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0c506b4-c357-4e7b-becf-720690ac0dda")
+	)
+	(junction
+		(at 114.3 102.9128)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b98b6ce4-8d23-4bf0-ac59-54c74d2b5854")
+	)
+	(junction
+		(at 88.9 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9bccb94-c91d-4c08-b813-8073ede71c64")
+	)
+	(junction
+		(at 139.7 102.9128)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfecc39a-c27f-4755-89b8-4d481bb0fb30")
+	)
+	(junction
+		(at 109.22 102.9128)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c12f9738-5631-4e1d-bf26-2cfbfb251757")
+	)
+	(junction
+		(at 210.82 64.8128)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2228855-ca76-470f-96e8-bc2001dabe85")
+	)
+	(junction
+		(at 190.5 64.8128)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c36ee713-6bc3-44d1-bed4-96267ebff797")
+	)
+	(junction
+		(at 139.7 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c648c810-88ab-4068-9dff-395e1f1ec32b")
+	)
+	(junction
+		(at 165.1 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c660f10d-a421-4390-8b26-b6ee5d6de740")
+	)
+	(junction
+		(at 83.82 102.9128)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8d2264e-97a1-4454-b52c-e4bf5f3ec57e")
+	)
+	(junction
+		(at 165.1 83.8628)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd582cb0-b90a-4609-b087-d99c18e1976e")
+	)
+	(junction
+		(at 139.7 83.8628)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d050f5f6-94c4-466e-a004-96ab12e35bdc")
+	)
+	(junction
+		(at 114.3 64.8128)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d07445fa-1271-4a13-a9af-8141d69874d9")
+	)
+	(junction
+		(at 114.3 121.9628)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d093d264-0377-437b-a136-79095ae96635")
+	)
+	(junction
+		(at 190.5 83.8628)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3216815-284d-4d3f-a0ee-d8bcc534f0aa")
+	)
+	(junction
+		(at 134.62 64.8128)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7519e78-2e98-4bd9-8f15-7b21bceaf3e8")
+	)
+	(junction
+		(at 160.02 121.9628)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d778d9f4-364b-4fce-ac9b-331c0d3eb778")
+	)
+	(junction
+		(at 88.9 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de1c3e17-c8b5-4a87-880d-b14dad51955a")
+	)
+	(junction
+		(at 139.7 121.9628)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e023d8dc-c200-4019-b708-73275b94d147")
+	)
+	(junction
+		(at 190.5 141.0128)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6163176-3a77-44d5-ac65-4f0ec83471b7")
+	)
+	(junction
+		(at 63.5 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6af3a0a-b37b-4d9c-8a23-f41e70db2fa1")
+	)
+	(junction
+		(at 63.5 83.8628)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eff9dee1-e998-4266-8f28-ce22d49e723b")
+	)
+	(junction
+		(at 139.7 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f27a577b-3811-4d03-83ec-f991b04448b4")
+	)
+	(junction
+		(at 139.7 141.0128)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f61257c6-d031-4ad3-9b9f-0b10994c750e")
+	)
+	(junction
+		(at 63.5 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7b5fdc0-8a0b-4fe2-a486-d5776ef525ea")
+	)
+	(junction
+		(at 109.22 121.9628)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f93a09dc-9b67-4c99-b4d5-a6ed89bb52c0")
+	)
+	(junction
+		(at 88.9 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc9b810d-084c-42d1-a79a-66e4c9cbdf87")
+	)
+	(junction
+		(at 165.1 141.0128)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd42f9fd-85b3-47a7-ad06-a98ba9e37902")
+	)
+	(junction
+		(at 165.1 64.8128)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd64b093-dd4e-4709-a3ce-270b7ecdb155")
+	)
+	(junction
+		(at 63.5 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff8b31a6-bd71-40f3-baea-5e06f6f343d1")
+	)
+	(bus_entry
+		(at 44.45 152.4)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f83c987-4a09-4aae-a51a-5d8f251dbcb0")
+	)
+	(bus_entry
+		(at 160.02 25.4)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44cd9f9a-2c87-4011-a870-2f55fb469c6c")
+	)
+	(bus_entry
+		(at 83.82 25.4)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6903ff3f-91b9-453c-a787-8cfb1823c14e")
+	)
+	(bus_entry
+		(at 134.62 25.4)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7189b4af-b951-4a84-916b-1ac2f4bd5053")
+	)
+	(bus_entry
+		(at 44.45 57.15)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80f6859b-3136-4bde-90d4-4f5df7889a65")
+	)
+	(bus_entry
+		(at 210.82 25.4)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c2ed2d3-0fec-4968-85d5-6ff19de0e13c")
+	)
+	(bus_entry
+		(at 44.45 76.2)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b616641d-0336-449f-acce-77b276e7581f")
+	)
+	(bus_entry
+		(at 44.45 133.35)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dac55328-d696-402d-b00a-e92f44b4b7af")
+	)
+	(bus_entry
+		(at 185.42 25.4)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb2b1a4a-7cf2-4ae7-85cb-7182f7217be7")
+	)
+	(bus_entry
+		(at 44.45 95.25)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edab3bd3-8a08-4420-adff-69aaa7e5d4ce")
+	)
+	(bus_entry
+		(at 44.45 114.3)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5e77eb5-ce0e-4e43-8856-0495d04c5d2a")
+	)
+	(bus_entry
+		(at 109.22 25.4)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa94a77d-c82d-4622-8d1e-c3044e0b29fe")
+	)
+	(wire
+		(pts
+			(xy 180.34 102.9128) (xy 185.42 102.9128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0072e84c-fd4a-4657-ad1f-6692b04d2f68")
+	)
+	(wire
+		(pts
+			(xy 109.22 121.9628) (xy 109.22 141.0128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00e68624-5e7a-4f2e-bde1-b67c279eb088")
+	)
+	(wire
+		(pts
+			(xy 154.94 45.72) (xy 160.02 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "014f5eac-d37a-447e-ae02-3dcad498933c")
+	)
+	(wire
+		(pts
+			(xy 160.02 121.9628) (xy 160.02 141.0128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "020014ca-0602-44b4-981d-970c88a80c5b")
+	)
+	(bus
+		(pts
+			(xy 182.88 22.86) (xy 208.28 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02f3df0b-b36b-4ba2-9d54-88066c77c666")
+	)
+	(wire
+		(pts
+			(xy 165.1 102.87) (xy 165.1 102.9128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04f4560b-59ce-42b3-9514-e3b02dd289b6")
+	)
+	(wire
+		(pts
+			(xy 210.82 83.8628) (xy 210.82 102.9128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "064aef0f-e47a-4eb2-87b7-88b8af8d9ad2")
+	)
+	(wire
+		(pts
+			(xy 190.5 83.8628) (xy 190.5 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06ac219d-cf23-4ee4-847c-686fceeabd89")
+	)
+	(wire
+		(pts
+			(xy 78.74 64.8128) (xy 83.82 64.8128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06ade901-6efc-4d67-b6f6-760393a1ee73")
+	)
+	(wire
+		(pts
+			(xy 88.9 76.2) (xy 114.3 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09975fca-2294-4aaf-87b2-bfb9c07bea20")
+	)
+	(wire
+		(pts
+			(xy 114.3 133.35) (xy 139.7 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09d3199f-d6d6-42bb-b0db-be156b39aa8c")
+	)
+	(wire
+		(pts
+			(xy 139.7 152.4) (xy 165.1 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09d9e686-af57-4e39-8589-9ae7a05e88ff")
+	)
+	(wire
+		(pts
+			(xy 210.82 141.0128) (xy 205.74 141.0128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c203f75-429b-4a8f-906e-e4e23a421944")
+	)
+	(wire
+		(pts
+			(xy 114.3 95.25) (xy 139.7 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d20c10f-64c8-4d59-8795-40435652b2a4")
+	)
+	(wire
+		(pts
+			(xy 160.02 121.9628) (xy 154.94 121.9628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10621b9c-750c-4d73-93b2-66f2d9aeb69d")
+	)
+	(wire
+		(pts
+			(xy 134.62 45.72) (xy 134.62 64.8128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "106dea56-ebac-4d04-9bff-c13c03709f11")
+	)
+	(wire
+		(pts
+			(xy 109.22 121.9628) (xy 104.14 121.9628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13792974-0547-4c32-8fba-ca573cbfd358")
+	)
+	(wire
+		(pts
+			(xy 129.54 83.8628) (xy 134.62 83.8628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "141b842d-3b92-4cf3-9901-e17c743175e0")
+	)
+	(wire
+		(pts
+			(xy 109.22 25.4) (xy 109.22 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "148e5f91-d1e1-48c5-9155-a929022cccf5")
+	)
+	(wire
+		(pts
+			(xy 104.14 45.72) (xy 109.22 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14a77f71-9d20-498a-8885-760710a3a737")
+	)
+	(wire
+		(pts
+			(xy 114.3 76.2) (xy 114.3 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "151bfba2-00e1-4720-a294-f9c0d7d48e33")
+	)
+	(wire
+		(pts
+			(xy 165.1 114.3) (xy 165.1 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16a60b64-8eed-45f8-99e9-8164fbb3a67b")
+	)
+	(wire
+		(pts
+			(xy 63.5 95.25) (xy 63.5 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16d830a1-c53c-4190-9c25-73ca29385adf")
+	)
+	(wire
+		(pts
+			(xy 88.9 102.9128) (xy 88.9 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "173bcf30-e593-48fc-970b-ffdfb0598884")
+	)
+	(wire
+		(pts
+			(xy 139.7 133.35) (xy 165.1 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17e65b20-f1fe-4bd8-8d6d-9a0002e0617e")
+	)
+	(wire
+		(pts
+			(xy 134.62 102.9128) (xy 134.62 121.9628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "190eb49c-21ae-4b94-86b2-1f037b94a3d3")
+	)
+	(wire
+		(pts
+			(xy 114.3 152.4) (xy 114.3 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19d9fa77-28ab-4e08-bec1-e33b800af392")
+	)
+	(wire
+		(pts
+			(xy 63.5 64.8128) (xy 63.5 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19f9e7c9-ab4f-4189-9a99-c07d348f1b63")
+	)
+	(wire
+		(pts
+			(xy 165.1 133.35) (xy 165.1 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a5eb898-7cf9-4068-9686-f2b527da4552")
+	)
+	(bus
+		(pts
+			(xy 41.91 25.4) (xy 41.91 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a84ad39-15fc-4c4c-b983-5701d46bd01b")
+	)
+	(wire
+		(pts
+			(xy 63.5 133.35) (xy 63.5 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c4fcd84-b679-45a1-8ae1-82f73635aefc")
+	)
+	(wire
+		(pts
+			(xy 88.9 133.35) (xy 114.3 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1efaf2b2-e33a-455e-8325-de2e8b169dd6")
+	)
+	(wire
+		(pts
+			(xy 63.5 64.77) (xy 63.5 64.8128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f31c02e-0891-4bee-bf0c-56f2dc5a6115")
+	)
+	(wire
+		(pts
+			(xy 210.82 45.72) (xy 210.82 64.8128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ab89cb-23d5-49e4-a089-a05544281733")
+	)
+	(wire
+		(pts
+			(xy 44.45 95.25) (xy 63.5 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21cb9b9e-c14e-4f4a-b01f-de17f93a1a2a")
+	)
+	(wire
+		(pts
+			(xy 44.45 133.35) (xy 63.5 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "228116d1-26e8-4fc6-aad7-5cff8777b811")
+	)
+	(wire
+		(pts
+			(xy 63.5 83.8628) (xy 63.5 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25590083-b38e-48e3-9952-a5feccf53565")
+	)
+	(wire
+		(pts
+			(xy 88.9 64.77) (xy 88.9 64.8128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27a49c04-e6a8-4f29-a455-de1b7938e195")
+	)
+	(wire
+		(pts
+			(xy 165.1 121.9628) (xy 165.1 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "290ffb48-72db-4435-a241-efad7f3f7834")
+	)
+	(wire
+		(pts
+			(xy 44.45 57.15) (xy 63.5 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a05265-98e2-4ca0-941d-124f2cbe19b8")
+	)
+	(wire
+		(pts
+			(xy 78.74 45.72) (xy 83.82 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ac2798e-6f06-4113-a7fd-b40d98871894")
+	)
+	(wire
+		(pts
+			(xy 44.45 114.3) (xy 63.5 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba973be-bacc-45fa-b905-447cfaaff08b")
+	)
+	(wire
+		(pts
+			(xy 139.7 95.25) (xy 165.1 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c250ba6-d709-4aa8-99fd-39c854c5fbe1")
+	)
+	(wire
+		(pts
+			(xy 139.7 64.77) (xy 139.7 64.8128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d91dbe2-8084-4e19-94af-b9b9ea05f222")
+	)
+	(wire
+		(pts
+			(xy 185.42 25.4) (xy 185.42 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ead6c18-97c7-4efb-b2fc-769051f28ec2")
+	)
+	(wire
+		(pts
+			(xy 165.1 64.77) (xy 165.1 64.8128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3078f1c8-d562-4d24-94bd-07c33794fb21")
+	)
+	(wire
+		(pts
+			(xy 78.74 83.8628) (xy 83.82 83.8628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31463559-ac22-4aaa-805a-9336dc99eae5")
+	)
+	(wire
+		(pts
+			(xy 83.82 83.8628) (xy 83.82 102.9128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31715201-764b-45c7-a157-25ae4919468c")
+	)
+	(wire
+		(pts
+			(xy 210.82 121.9628) (xy 210.82 141.0128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32493cd6-263e-4a4c-ae9c-dd130073d021")
+	)
+	(wire
+		(pts
+			(xy 88.9 140.97) (xy 88.9 141.0128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3426de89-7671-404c-88bd-1caaaf912c22")
+	)
+	(wire
+		(pts
+			(xy 63.5 102.9128) (xy 63.5 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "369ea9c2-df75-4094-b3d4-867882f5e876")
+	)
+	(wire
+		(pts
+			(xy 190.5 102.9128) (xy 190.5 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37e0e6b7-4768-4885-927c-5dbcc1e70933")
+	)
+	(wire
+		(pts
+			(xy 165.1 83.82) (xy 165.1 83.8628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38875757-a532-4f34-8171-0cdfc0c5be9c")
+	)
+	(wire
+		(pts
+			(xy 205.74 102.9128) (xy 210.82 102.9128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3943a8ba-3c38-4d7c-b48d-16c0af7ccfcb")
+	)
+	(wire
+		(pts
+			(xy 114.3 83.8628) (xy 114.3 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "399ec9a7-0b5f-4f72-b6bc-8aa8d4caf697")
+	)
+	(wire
+		(pts
+			(xy 114.3 57.15) (xy 139.7 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b87deff-1836-4829-8267-4736071ccaf6")
+	)
+	(wire
+		(pts
+			(xy 129.54 102.9128) (xy 134.62 102.9128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bc2daed-90b2-41a3-b280-551fcb800997")
+	)
+	(wire
+		(pts
+			(xy 160.02 102.9128) (xy 160.02 121.9628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cbda86b-353f-4564-b80b-8605aabeb975")
+	)
+	(wire
+		(pts
+			(xy 190.5 121.92) (xy 190.5 121.9628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da6f2ba-6621-45ff-afec-7dc181743aee")
+	)
+	(wire
+		(pts
+			(xy 165.1 57.15) (xy 165.1 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e0241d0-a53c-45dc-b898-53696d5c8307")
+	)
+	(wire
+		(pts
+			(xy 63.5 45.72) (xy 63.5 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f340f20-9a80-4f62-a940-9e98d3db318e")
+	)
+	(wire
+		(pts
+			(xy 139.7 141.0128) (xy 139.7 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e5a820-f952-4589-ab81-7e2c039279d4")
+	)
+	(wire
+		(pts
+			(xy 114.3 114.3) (xy 114.3 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "418d3ec3-da13-45c5-9c0d-447d71b50226")
+	)
+	(wire
+		(pts
+			(xy 88.9 152.4) (xy 114.3 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "422d51e3-d2cd-4c4a-aacc-0975261ae259")
+	)
+	(wire
+		(pts
+			(xy 185.42 45.72) (xy 185.42 64.8128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "468e6a8b-7a4a-45b3-926a-c1322bd7953a")
+	)
+	(wire
+		(pts
+			(xy 114.3 64.77) (xy 114.3 64.8128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47dab4e5-9393-4938-9e97-67153585a608")
+	)
+	(wire
+		(pts
+			(xy 139.7 152.4) (xy 139.7 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b6a2199-688e-47a6-af94-f331b4ff7ad1")
+	)
+	(wire
+		(pts
+			(xy 190.5 140.97) (xy 190.5 141.0128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d00fd92-ceba-4650-8426-3b17597a4750")
+	)
+	(wire
+		(pts
+			(xy 185.42 83.8628) (xy 185.42 102.9128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d3def9f-3797-48b9-8580-24b6132eda79")
+	)
+	(wire
+		(pts
+			(xy 165.1 57.15) (xy 190.5 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d9a37d6-fce4-44f9-949e-7a06f27c1d1d")
+	)
+	(wire
+		(pts
+			(xy 139.7 76.2) (xy 139.7 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "500ba295-f1cd-4e48-9f95-310e0ba56acc")
+	)
+	(wire
+		(pts
+			(xy 165.1 114.3) (xy 190.5 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50a3ebb4-3c4b-4cd5-8c04-67cb591dcebb")
+	)
+	(wire
+		(pts
+			(xy 83.82 25.4) (xy 83.82 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50e9297c-18aa-4558-8ffc-04b03d6b641b")
+	)
+	(wire
+		(pts
+			(xy 190.5 64.8128) (xy 190.5 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5388b130-f36f-4862-8022-c2c517aa3195")
+	)
+	(bus
+		(pts
+			(xy 41.91 130.81) (xy 41.91 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53bd32e8-5dcd-481f-926b-167e7a6669b6")
+	)
+	(wire
+		(pts
+			(xy 114.3 121.9628) (xy 114.3 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5444b0bf-9610-4a5f-9d40-76c26939e5bd")
+	)
+	(wire
+		(pts
+			(xy 165.1 141.0128) (xy 165.1 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "555859cf-871c-4bb1-977b-ecfcec301aa3")
+	)
+	(wire
+		(pts
+			(xy 114.3 141.0128) (xy 114.3 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57e62a12-434a-485e-805b-5f523cd4fc70")
+	)
+	(wire
+		(pts
+			(xy 139.7 83.82) (xy 139.7 83.8628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58d88ea5-a424-49c0-b296-d0850ed8443d")
+	)
+	(wire
+		(pts
+			(xy 63.5 121.9628) (xy 63.5 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e18e76-4786-44c8-bb82-e48d9d41dc88")
+	)
+	(wire
+		(pts
+			(xy 88.9 76.2) (xy 88.9 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aceda07-53cf-4e24-a527-559d0afe0a92")
+	)
+	(wire
+		(pts
+			(xy 63.5 133.35) (xy 88.9 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aff9fdb-0f50-4272-af54-01057f4aaffa")
+	)
+	(wire
+		(pts
+			(xy 83.82 121.9628) (xy 78.74 121.9628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ba0175d-e171-4506-b814-27c9d37d4f7b")
+	)
+	(wire
+		(pts
+			(xy 88.9 114.3) (xy 114.3 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ce269be-2072-4df9-8471-16c2c6a8a4ba")
+	)
+	(wire
+		(pts
+			(xy 114.3 140.97) (xy 114.3 141.0128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f3dd703-bb67-4e43-a880-d0ff60b0b83e")
+	)
+	(wire
+		(pts
+			(xy 129.54 45.72) (xy 134.62 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f4e69e7-dcc0-4312-a872-77f3246e19ed")
+	)
+	(wire
+		(pts
+			(xy 190.5 76.2) (xy 190.5 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f7e23d4-db12-42e0-bb78-04192b711609")
+	)
+	(wire
+		(pts
+			(xy 165.1 95.25) (xy 165.1 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fbd541c-c10f-42a3-bd60-7c38c57ba8f2")
+	)
+	(wire
+		(pts
+			(xy 185.42 121.9628) (xy 185.42 141.0128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6107b75c-9ec1-4e55-a554-9234ca6d2a67")
+	)
+	(wire
+		(pts
+			(xy 88.9 83.82) (xy 88.9 83.8628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6162a8ed-f217-4ae6-9f5b-f9216dfd763e")
+	)
+	(wire
+		(pts
+			(xy 210.82 121.9628) (xy 205.74 121.9628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6238c028-49b4-43f8-a4ba-3ae96004128a")
+	)
+	(wire
+		(pts
+			(xy 139.7 64.8128) (xy 139.7 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65ce1cdb-06d8-4624-991c-dfc206dc6642")
+	)
+	(bus
+		(pts
+			(xy 25.4 25.4) (xy 41.91 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66aeb413-4c51-4792-91b0-7accfa7f706a")
+	)
+	(wire
+		(pts
+			(xy 63.5 114.3) (xy 88.9 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6702e842-3ffb-4c4f-85f5-e7e35d66f2e1")
+	)
+	(wire
+		(pts
+			(xy 104.14 83.8628) (xy 109.22 83.8628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "689c361c-6661-4db9-b778-15aaa5501148")
+	)
+	(wire
+		(pts
+			(xy 63.5 141.0128) (xy 63.5 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68ce1b8c-94aa-4821-8d79-d0cef557d4ce")
+	)
+	(wire
+		(pts
+			(xy 210.82 25.4) (xy 210.82 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68e6c2fc-6570-431e-8e27-8e4ed00db4bc")
+	)
+	(bus
+		(pts
+			(xy 157.48 22.86) (xy 182.88 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f429a8-9f16-4078-a6f9-a41665f4926e")
+	)
+	(wire
+		(pts
+			(xy 165.1 83.8628) (xy 165.1 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "696ee8ed-31b5-4cf6-af71-01c5e5a4d546")
+	)
+	(wire
+		(pts
+			(xy 190.5 121.9628) (xy 190.5 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69c52699-c596-4452-a4e7-c3a0ea2473c8")
+	)
+	(wire
+		(pts
+			(xy 63.5 83.82) (xy 63.5 83.8628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69d28485-6229-49be-b342-0900066ea9c4")
+	)
+	(wire
+		(pts
+			(xy 83.82 121.9628) (xy 83.82 141.0128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b8dd5ae-ad73-4ad5-bc10-d8e7e5ecd70b")
+	)
+	(wire
+		(pts
+			(xy 165.1 152.4) (xy 165.1 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c03b7e5-204e-446a-8fc7-924ed1accba6")
+	)
+	(wire
+		(pts
+			(xy 88.9 57.15) (xy 114.3 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c943552-3874-463c-8158-8129fbfbe36b")
+	)
+	(bus
+		(pts
+			(xy 41.91 92.71) (xy 41.91 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d8f461-8495-4b2c-afd0-8359c36dc561")
+	)
+	(wire
+		(pts
+			(xy 185.42 141.0128) (xy 180.34 141.0128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76420ef7-942d-4405-93d4-45b22ed564e6")
+	)
+	(wire
+		(pts
+			(xy 160.02 25.4) (xy 160.02 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "772c4d04-9951-4afe-930e-dca7bca10b71")
+	)
+	(wire
+		(pts
+			(xy 139.7 121.92) (xy 139.7 121.9628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77369bfe-3502-4d9a-b4d3-b68b0df6ee01")
+	)
+	(wire
+		(pts
+			(xy 114.3 121.92) (xy 114.3 121.9628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77a2212b-405e-4fc0-aed5-1bc23aaa4605")
+	)
+	(wire
+		(pts
+			(xy 83.82 64.8128) (xy 83.82 83.8628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77d49c2e-6be9-49ee-99bb-8fad83a037fc")
+	)
+	(wire
+		(pts
+			(xy 88.9 45.72) (xy 88.9 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79de2b2a-be4d-460a-8542-1ac854003d4d")
+	)
+	(wire
+		(pts
+			(xy 160.02 83.8628) (xy 160.02 102.9128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a8c70ff-4486-44c6-a339-bd9a9b81eb88")
+	)
+	(wire
+		(pts
+			(xy 63.5 140.97) (xy 63.5 141.0128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ae06986-c7e2-45b0-ac23-fb81049b9a03")
+	)
+	(wire
+		(pts
+			(xy 190.5 83.82) (xy 190.5 83.8628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bdccec8-12d0-4a46-98ec-99a6eeebf2c2")
+	)
+	(wire
+		(pts
+			(xy 139.7 95.25) (xy 139.7 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c0d4756-5fcb-451b-ab6d-34b511b6b2ee")
+	)
+	(wire
+		(pts
+			(xy 205.74 45.72) (xy 210.82 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d5b8a6d-1da1-4ba8-b267-398e3e2dd6b9")
+	)
+	(wire
+		(pts
+			(xy 134.62 141.0128) (xy 129.54 141.0128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80177e52-ad7e-4d4a-b2dd-c8221d776b8c")
+	)
+	(wire
+		(pts
+			(xy 165.1 140.97) (xy 165.1 141.0128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80dba914-4e57-46ff-bbb8-ddfe49e0bd6e")
+	)
+	(wire
+		(pts
+			(xy 139.7 121.9628) (xy 139.7 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8125deb6-7a30-4a67-8582-b110067d9b8a")
+	)
+	(wire
+		(pts
+			(xy 114.3 152.4) (xy 139.7 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84093777-1838-448f-b171-aa3df4005a55")
+	)
+	(wire
+		(pts
+			(xy 63.5 152.4) (xy 63.5 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "852f4bf6-2d55-48f7-a90b-3bcad477a8e8")
+	)
+	(wire
+		(pts
+			(xy 63.5 57.15) (xy 63.5 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "867b6725-c332-4eb9-9879-961a5018923b")
+	)
+	(wire
+		(pts
+			(xy 165.1 102.9128) (xy 165.1 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "876f9582-6982-4edb-bd39-a03dc0654e1f")
+	)
+	(wire
+		(pts
+			(xy 205.74 83.8628) (xy 210.82 83.8628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "894489e0-1cdf-47df-b816-d7fa72ce803c")
+	)
+	(wire
+		(pts
+			(xy 109.22 102.9128) (xy 109.22 121.9628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "896bb9ad-a99a-4238-b6f6-689ea75f6a4e")
+	)
+	(wire
+		(pts
+			(xy 190.5 57.15) (xy 190.5 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89de5da9-402f-4c76-b4ee-20cb5f07e535")
+	)
+	(wire
+		(pts
+			(xy 190.5 152.4) (xy 190.5 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89e2119c-b000-482c-a203-02e739e7939f")
+	)
+	(wire
+		(pts
+			(xy 88.9 64.8128) (xy 88.9 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b9b3ee0-a761-4285-b639-d6edebeef699")
+	)
+	(bus
+		(pts
+			(xy 25.4 22.86) (xy 81.28 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8de8bec7-71e0-46be-bff1-7c4f9a5e8def")
+	)
+	(wire
+		(pts
+			(xy 154.94 64.8128) (xy 160.02 64.8128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "905052d5-1fae-4fbf-8098-3c4ae624a340")
+	)
+	(wire
+		(pts
+			(xy 180.34 83.8628) (xy 185.42 83.8628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90709010-bd59-4435-8882-5fe8065852d2")
+	)
+	(wire
+		(pts
+			(xy 139.7 76.2) (xy 165.1 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91633251-e5db-4326-8342-78315bbf35ac")
+	)
+	(wire
+		(pts
+			(xy 185.42 102.9128) (xy 185.42 121.9628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93577015-941f-40a1-8774-29f3cda2c2ef")
+	)
+	(wire
+		(pts
+			(xy 139.7 133.35) (xy 139.7 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93b608f1-218b-44ea-9241-29c2f899eb77")
+	)
+	(wire
+		(pts
+			(xy 44.45 76.2) (xy 63.5 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9490ca96-2471-4afb-aa38-3d31421768b9")
+	)
+	(wire
+		(pts
+			(xy 88.9 141.0128) (xy 88.9 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "951ceb0f-3df6-4c6b-a51d-5094239a4caf")
+	)
+	(wire
+		(pts
+			(xy 210.82 64.8128) (xy 210.82 83.8628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9573af1c-afe5-4f67-bb75-54839b3fdc0a")
+	)
+	(wire
+		(pts
+			(xy 165.1 152.4) (xy 190.5 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96cc59cd-9041-491b-8eff-d915d7f537de")
+	)
+	(wire
+		(pts
+			(xy 154.94 83.8628) (xy 160.02 83.8628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97ce5205-ec66-47dd-af86-c6c848650940")
+	)
+	(wire
+		(pts
+			(xy 109.22 64.8128) (xy 109.22 83.8628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9870119c-79b5-40c9-9c72-7cba5a4eefe9")
+	)
+	(wire
+		(pts
+			(xy 109.22 141.0128) (xy 104.14 141.0128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98dc8625-de89-4472-bb91-f4fe1dc87078")
+	)
+	(wire
+		(pts
+			(xy 63.5 121.92) (xy 63.5 121.9628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d668c56-82f7-4c9b-a797-7188ed88e27c")
+	)
+	(wire
+		(pts
+			(xy 160.02 64.8128) (xy 160.02 83.8628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fb2017f-f774-44b4-94c2-bbdd621df689")
+	)
+	(wire
+		(pts
+			(xy 114.3 114.3) (xy 139.7 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a075ee08-94e5-4319-87d0-333a50323395")
+	)
+	(wire
+		(pts
+			(xy 78.74 141.0128) (xy 83.82 141.0128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0a2e259-f1dc-40a9-9107-5617edc47708")
+	)
+	(wire
+		(pts
+			(xy 63.5 152.4) (xy 88.9 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1b6e345-50de-4217-b7e7-835035d5dcd0")
+	)
+	(wire
+		(pts
+			(xy 63.5 95.25) (xy 88.9 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2a69b60-799d-47d2-9271-9a657df9ef05")
+	)
+	(bus
+		(pts
+			(xy 41.91 111.76) (xy 41.91 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2abf9ae-4110-435c-8069-3d53078f1b16")
+	)
+	(wire
+		(pts
+			(xy 190.5 64.77) (xy 190.5 64.8128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a379eb6c-1d5f-4952-b4c5-e6d1ae30ce1a")
+	)
+	(wire
+		(pts
+			(xy 139.7 114.3) (xy 165.1 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a59f45b2-c485-49e9-bbe6-f89b2ba4cec3")
+	)
+	(wire
+		(pts
+			(xy 78.74 102.9128) (xy 83.82 102.9128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a65371ab-b995-4446-8665-e810b695b211")
+	)
+	(wire
+		(pts
+			(xy 114.3 102.9128) (xy 114.3 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7438c50-a85a-431a-b31f-2494d84d84d8")
+	)
+	(wire
+		(pts
+			(xy 165.1 45.72) (xy 165.1 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9fe68c2-cc85-4079-819c-e6fe09639ea3")
+	)
+	(wire
+		(pts
+			(xy 205.74 64.8128) (xy 210.82 64.8128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa16cedc-6571-4f0d-a2ee-60b0e0ee9e9f")
+	)
+	(wire
+		(pts
+			(xy 180.34 64.8128) (xy 185.42 64.8128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab524201-bae2-441a-ad1a-528c6a50485d")
+	)
+	(wire
+		(pts
+			(xy 83.82 45.72) (xy 83.82 64.8128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab875c20-d11b-404b-ab06-06c8f669b463")
+	)
+	(wire
+		(pts
+			(xy 109.22 83.8628) (xy 109.22 102.9128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad561bf5-3842-4962-bb51-08faa0c1dc44")
+	)
+	(wire
+		(pts
+			(xy 109.22 45.72) (xy 109.22 64.8128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afe0455e-2dda-447f-98e0-3d2697cc398a")
+	)
+	(wire
+		(pts
+			(xy 88.9 121.9628) (xy 88.9 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0d2eca4-408e-4051-8c3d-6781d3677ac7")
+	)
+	(wire
+		(pts
+			(xy 63.5 57.15) (xy 88.9 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1b576aa-9b43-4c29-a630-82fc2bb78504")
+	)
+	(wire
+		(pts
+			(xy 88.9 121.92) (xy 88.9 121.9628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b380aff3-eb15-4f34-9e0f-f940f11f838f")
+	)
+	(wire
+		(pts
+			(xy 114.3 45.72) (xy 114.3 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b65f8429-370a-42e6-9f7e-5ce74ade5872")
+	)
+	(wire
+		(pts
+			(xy 190.5 114.3) (xy 190.5 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c71a41-2b14-44e2-9c13-9af6610682e5")
+	)
+	(wire
+		(pts
+			(xy 134.62 121.9628) (xy 134.62 141.0128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba884468-4795-422a-8473-4b23d7e908a2")
+	)
+	(wire
+		(pts
+			(xy 129.54 64.8128) (xy 134.62 64.8128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd76e3b7-a243-409d-b17b-325670654705")
+	)
+	(wire
+		(pts
+			(xy 88.9 95.25) (xy 114.3 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf87857e-63e3-45d8-aecf-3a9be1aa123f")
+	)
+	(wire
+		(pts
+			(xy 88.9 83.8628) (xy 88.9 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf99de0e-039f-4bf8-8c07-1d8adbb49299")
+	)
+	(bus
+		(pts
+			(xy 106.68 22.86) (xy 132.08 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c072afa7-de88-415e-a765-12a992b47761")
+	)
+	(wire
+		(pts
+			(xy 114.3 76.2) (xy 139.7 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f778fc-1b6d-4bd3-91ea-99b690fa6cad")
+	)
+	(wire
+		(pts
+			(xy 88.9 114.3) (xy 88.9 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1af63a6-424e-4b2a-bbb7-1cb5e5852054")
+	)
+	(wire
+		(pts
+			(xy 114.3 64.8128) (xy 114.3 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3f87829-fc26-4196-b595-da5e20959951")
+	)
+	(wire
+		(pts
+			(xy 185.42 121.9628) (xy 180.34 121.9628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c47648d5-01e0-4ad5-98e1-238635d308a0")
+	)
+	(wire
+		(pts
+			(xy 139.7 45.72) (xy 139.7 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c484b545-4a6a-4e85-ae4a-413ce756ef17")
+	)
+	(wire
+		(pts
+			(xy 139.7 102.9128) (xy 139.7 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c608e2d2-10e5-4fe8-abaa-98a6628a7839")
+	)
+	(wire
+		(pts
+			(xy 134.62 83.8628) (xy 134.62 102.9128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c78fc193-3c47-44be-a3d0-1f00cb61b0ba")
+	)
+	(wire
+		(pts
+			(xy 139.7 57.15) (xy 165.1 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8f8ed50-2cea-471b-823a-6218d70c41b4")
+	)
+	(wire
+		(pts
+			(xy 165.1 64.8128) (xy 165.1 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cca8fdd7-da0a-4ecd-bf62-ec2371cb77a6")
+	)
+	(bus
+		(pts
+			(xy 41.91 54.61) (xy 41.91 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1e561f7-fb50-4b6a-aa88-a0f3e33bb939")
+	)
+	(wire
+		(pts
+			(xy 114.3 83.82) (xy 114.3 83.8628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2907be8-dd6b-42b0-9267-30bb58b2860d")
+	)
+	(wire
+		(pts
+			(xy 88.9 95.25) (xy 88.9 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2ddbf65-a3fd-46ed-b610-7442567352fb")
+	)
+	(wire
+		(pts
+			(xy 190.5 133.35) (xy 190.5 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d35ee28b-73b8-456f-a49b-1b804dab304d")
+	)
+	(wire
+		(pts
+			(xy 165.1 95.25) (xy 190.5 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3e2ddaa-8217-45fe-bb6a-a977b87f9ddb")
+	)
+	(wire
+		(pts
+			(xy 88.9 133.35) (xy 88.9 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d51fd4ec-38f4-4a65-a262-f67bcc6d6c45")
+	)
+	(wire
+		(pts
+			(xy 185.42 64.8128) (xy 185.42 83.8628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6ee155b-1701-4ced-a1b6-967a6ba41542")
+	)
+	(wire
+		(pts
+			(xy 190.5 45.72) (xy 190.5 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d70b9a5a-3ac9-488e-8056-a1b6245e363d")
+	)
+	(wire
+		(pts
+			(xy 134.62 64.8128) (xy 134.62 83.8628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d82149e3-debd-490b-9456-3f83c6e48328")
+	)
+	(wire
+		(pts
+			(xy 210.82 102.9128) (xy 210.82 121.9628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db1f29fb-5bf1-4d85-940c-f3c4e98b1ef7")
+	)
+	(wire
+		(pts
+			(xy 190.5 141.0128) (xy 190.5 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db469e4a-4cc6-4269-9ac4-55331843c4a1")
+	)
+	(wire
+		(pts
+			(xy 160.02 45.72) (xy 160.02 64.8128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db791f46-9db3-40e9-b073-ab887fd9dd9a")
+	)
+	(wire
+		(pts
+			(xy 134.62 25.4) (xy 134.62 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db8802f5-36a9-470b-bb26-ebc3ee1e3b0d")
+	)
+	(wire
+		(pts
+			(xy 165.1 121.92) (xy 165.1 121.9628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbab1699-b751-4bd0-8713-404f3ae9eb1f")
+	)
+	(wire
+		(pts
+			(xy 134.62 121.9628) (xy 129.54 121.9628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dca8fbd4-4b8d-482e-8735-31291dc7ac24")
+	)
+	(wire
+		(pts
+			(xy 139.7 57.15) (xy 139.7 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd0e8407-69ad-4ee7-943a-bdec892f6759")
+	)
+	(bus
+		(pts
+			(xy 132.08 22.86) (xy 157.48 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de3549ef-3a66-4761-938b-1eaa7f73757e")
+	)
+	(wire
+		(pts
+			(xy 165.1 133.35) (xy 190.5 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df770eb9-da28-410a-9634-f37b65132b7f")
+	)
+	(wire
+		(pts
+			(xy 44.45 152.4) (xy 63.5 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e13772f6-baf3-452d-a4d2-2e9311b0d0f0")
+	)
+	(wire
+		(pts
+			(xy 160.02 141.0128) (xy 154.94 141.0128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1a65e77-d40c-4fc5-ac81-f2de4f7bc1bf")
+	)
+	(wire
+		(pts
+			(xy 190.5 95.25) (xy 190.5 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e265a441-6c77-4e5c-9770-9f5a3dfada84")
+	)
+	(wire
+		(pts
+			(xy 114.3 102.87) (xy 114.3 102.9128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e356764f-3c19-477a-943f-28505c237a3d")
+	)
+	(wire
+		(pts
+			(xy 63.5 114.3) (xy 63.5 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3bb43c9-4076-4754-bb26-6d5203e7e0bf")
+	)
+	(wire
+		(pts
+			(xy 104.14 64.8128) (xy 109.22 64.8128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e416b8e0-f2b8-4e76-b172-de7e4618db15")
+	)
+	(wire
+		(pts
+			(xy 88.9 102.87) (xy 88.9 102.9128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5b8d93f-b2ee-4fcb-b9c7-fe517884ef20")
+	)
+	(wire
+		(pts
+			(xy 63.5 102.87) (xy 63.5 102.9128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e76fa8ad-3a56-4816-8019-f8befd1a2de6")
+	)
+	(wire
+		(pts
+			(xy 139.7 102.87) (xy 139.7 102.9128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7843cf7-5d15-40bb-949c-a900ec003e0b")
+	)
+	(wire
+		(pts
+			(xy 88.9 57.15) (xy 88.9 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8109b45-4c7f-498d-959e-6e36456ed780")
+	)
+	(bus
+		(pts
+			(xy 41.91 73.66) (xy 41.91 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e920ebb6-2cd9-41c5-a161-472dfaccfd85")
+	)
+	(wire
+		(pts
+			(xy 180.34 45.72) (xy 185.42 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e96d2f61-d4ae-4eb1-b905-d7c96160d562")
+	)
+	(wire
+		(pts
+			(xy 139.7 140.97) (xy 139.7 141.0128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9e4d631-068c-4621-bdc2-9edbcad77dac")
+	)
+	(wire
+		(pts
+			(xy 165.1 76.2) (xy 190.5 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9e6b8b5-acd0-429a-97c0-0142fe283eb4")
+	)
+	(wire
+		(pts
+			(xy 114.3 133.35) (xy 114.3 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eac05a0d-b872-4650-b9fa-cc1b6db4d241")
+	)
+	(wire
+		(pts
+			(xy 83.82 102.9128) (xy 83.82 121.9628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed22dd82-1af2-48b8-a06e-287507f458fd")
+	)
+	(wire
+		(pts
+			(xy 165.1 76.2) (xy 165.1 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee5d1f0c-2fe0-4bdd-a48b-ddb141ac80eb")
+	)
+	(wire
+		(pts
+			(xy 139.7 114.3) (xy 139.7 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee69616b-782c-461c-b632-47a218c0a6c8")
+	)
+	(wire
+		(pts
+			(xy 190.5 102.87) (xy 190.5 102.9128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eec7a5c5-2655-49d7-b2a3-b24b484626f6")
+	)
+	(wire
+		(pts
+			(xy 63.5 76.2) (xy 88.9 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef2bcbec-b649-409e-bed3-ffeb06d69737")
+	)
+	(wire
+		(pts
+			(xy 114.3 57.15) (xy 114.3 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2196763-af87-4b2d-816e-6569b8299b36")
+	)
+	(wire
+		(pts
+			(xy 63.5 76.2) (xy 63.5 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6dc51ec-2cf5-4223-8c99-987854ff6dfe")
+	)
+	(wire
+		(pts
+			(xy 104.14 102.9128) (xy 109.22 102.9128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7911bb3-ff03-4098-b7e8-e7a1e27197ef")
+	)
+	(wire
+		(pts
+			(xy 114.3 95.25) (xy 114.3 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8a23b2f-07f5-4164-8781-b40369a7074c")
+	)
+	(wire
+		(pts
+			(xy 139.7 83.8628) (xy 139.7 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa1e9566-ab91-417b-be96-810e8785b9ab")
+	)
+	(wire
+		(pts
+			(xy 88.9 152.4) (xy 88.9 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe4c2a7f-f5ae-44d7-a288-e321a9912ad4")
+	)
+	(bus
+		(pts
+			(xy 81.28 22.86) (xy 106.68 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe6d0db3-8652-4d09-bf56-b200c505b828")
+	)
+	(wire
+		(pts
+			(xy 154.94 102.9128) (xy 160.02 102.9128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffa37342-eb68-4c11-8c5d-aaca0e971f65")
+	)
+	(label "col0"
+		(at 83.82 33.02 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4887bf6a-4678-4531-8558-808b4a6cfa82")
+	)
+	(label "row4"
+		(at 50.8 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "488fb0ba-a06b-4ef4-9ef8-9217ced780f0")
+	)
+	(label "col1"
+		(at 109.22 33.02 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4e1acc88-827f-4776-900e-0ab97e35e24d")
+	)
+	(label "col2"
+		(at 134.62 33.02 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8d835c19-a7d6-4e0a-b0b4-c86e6057ae51")
+	)
+	(label "col4"
+		(at 185.42 33.02 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8f88a157-6194-4f53-a2e0-ec3a6bdeb181")
+	)
+	(label "col5"
+		(at 210.82 33.02 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9707094f-473b-47e8-8fa9-ae3dc75df6f0")
+	)
+	(label "row2"
+		(at 50.8 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf6ff65c-f9a9-489c-a91e-524ba495beca")
+	)
+	(label "row3"
+		(at 50.8 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1a4d185-13fc-449e-90ee-479ed27a2173")
+	)
+	(label "row0"
+		(at 50.8 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca500284-2f13-4c1c-8790-48de82d82381")
+	)
+	(label "row1"
+		(at 50.8 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e28dd26d-4b47-4d70-aef7-eb594751cacb")
+	)
+	(label "col3"
+		(at 160.02 33.02 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ec271e70-d16e-47b4-8551-6ebca3a507be")
+	)
+	(label "row5"
+		(at 50.8 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fea42cb8-6e5f-40bf-971b-f1b414f2d50e")
+	)
+	(hierarchical_label "row[0..5]"
+		(shape input)
+		(at 25.4 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "283d4cc1-78a9-4a4c-977d-ccf7a1403324")
+	)
+	(hierarchical_label "col[0..5]"
+		(shape input)
+		(at 25.4 22.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7ab2232-ba10-485c-891f-42b47b1ba202")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 31.75 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "99a2b4bb-f7fc-430a-bdb2-d8a58f0f6f2b")
+		(property "Netclass" "row"
+			(at 33.274 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" "row"
+			(at 168.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 31.75 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6037c88-f5b8-40c4-86aa-e2a13a8d89ea")
+		(property "Netclass" "col"
+			(at 30.226 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" "col"
+			(at -105.41 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 88.9 53.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00891158-cab3-4a8e-b2dc-9bbbe2128e60")
+		(property "Reference" "D7"
+			(at 92.71 52.0699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 85.09 52.07 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 88.9 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6376885e-dc8a-4f1a-b62b-5ef2140881b1")
+		)
+		(pin "2"
+			(uuid "2281c462-360a-433a-a11b-444389746512")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 71.12 141.0128 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a40d48c-ca79-47c5-a3c9-69eacbc3a875")
+		(property "Reference" "K6"
+			(at 71.12 134.6628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 71.12 143.5528 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 141.0128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 141.0128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 141.0128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebc0498d-62ec-4846-bd3c-b099c5379612")
+		)
+		(pin "2"
+			(uuid "3bbd64f2-e61c-4030-b548-5593639e2fe5")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 172.72 83.8628 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bda19cc-a416-44ba-aca3-9cabd6c26e58")
+		(property "Reference" "K27"
+			(at 172.72 77.5128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 172.72 86.4028 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 83.8628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 83.8628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 83.8628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a01d1f58-6521-41c5-a93c-1b701b13a81f")
+		)
+		(pin "2"
+			(uuid "f4c18ec7-4bd2-4952-9226-60ee474875f6")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 139.7 53.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13b53d7e-df05-46a5-a727-e335a814fb7b")
+		(property "Reference" "D19"
+			(at 143.51 52.0699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 135.89 52.07 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 139.7 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e36114e-3e3d-4940-a4ad-0470223155bd")
+		)
+		(pin "2"
+			(uuid "715cf76c-9164-43d1-901c-74a10e04403c")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 198.12 141.0128 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15d99910-46c1-4f78-bb59-3f8e8951a9c4")
+		(property "Reference" "K36"
+			(at 198.12 134.6628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 198.12 143.5528 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 141.0128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 141.0128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 141.0128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f7c2ca5-38da-4f1b-a581-0961e73c55c6")
+		)
+		(pin "2"
+			(uuid "d51a6eec-3952-41c8-98c5-9a2c2f816e76")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 96.52 83.8628 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "165bf141-e9da-4e7a-9751-6aa997258926")
+		(property "Reference" "K9"
+			(at 96.52 77.5128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 96.52 86.4028 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 83.8628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 83.8628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 83.8628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87d634ee-7dd0-4873-9f00-489230f4d30e")
+		)
+		(pin "2"
+			(uuid "68f528fd-21ac-4319-8f51-4d8b7c7ba20a")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 147.32 141.0128 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "166448b0-29f9-4721-b489-448a87c6b528")
+		(property "Reference" "K24"
+			(at 147.32 134.6628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 147.32 143.5528 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 141.0128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 141.0128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 141.0128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b329f91e-5b85-4362-9273-0b9cf0c8947d")
+		)
+		(pin "2"
+			(uuid "74ae4236-9276-4a41-bd7e-77556b17ca84")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 165.1 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1806bbfb-c22e-4153-b38b-c356caea758a")
+		(property "Reference" "D27"
+			(at 168.91 90.1699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 161.29 90.17 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d74b027-6ed8-4dc6-811a-c2d1c58d11f4")
+		)
+		(pin "2"
+			(uuid "b888679c-dead-4242-8290-2451b455f353")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 114.3 53.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18bb778c-996f-4de2-8c16-a89845fcf100")
+		(property "Reference" "D13"
+			(at 118.11 52.0699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 110.49 52.07 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 114.3 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ef0d6ad-8ae7-4cfc-99ac-d3a2d4e944d6")
+		)
+		(pin "2"
+			(uuid "8d266faa-72e4-42c4-bf6a-d80898039f65")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 88.9 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b8661b3-e73c-41b6-be83-33d9769fbf02")
+		(property "Reference" "D9"
+			(at 92.71 90.1699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 85.09 90.17 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8414971b-bd94-4049-a72e-92ece7994701")
+		)
+		(pin "2"
+			(uuid "014f569d-3039-4b1c-9550-9a99d4e33cfc")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 88.9 110.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e16410d-793e-47a5-b8e0-0c879530ec2d")
+		(property "Reference" "D10"
+			(at 92.71 109.2199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 85.09 109.22 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 88.9 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b2e0dcd-5471-4883-8166-ed218a4ce19e")
+		)
+		(pin "2"
+			(uuid "03383f7a-2a99-42ed-b3ab-dbea47dbb6da")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 63.5 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e252552-12c6-4590-9603-1ad311992ecd")
+		(property "Reference" "D2"
+			(at 67.31 71.1199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 59.69 71.12 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 63.5 72.39 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 72.39 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "816a19d9-76ed-4a75-8f49-136af6b2a637")
+		)
+		(pin "2"
+			(uuid "7279da51-4ee4-41be-a6bc-4a3a8d34f118")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 172.72 64.8128 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f2e82cd-5f73-4f51-98c0-7a2cb9699b9c")
+		(property "Reference" "K26"
+			(at 172.72 58.4628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 172.72 67.3528 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 64.8128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 64.8128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 64.8128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30746ae0-417f-4559-98b8-2e0ae53d23ed")
+		)
+		(pin "2"
+			(uuid "06a450b1-071a-4a69-8c10-002876fb12a7")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 114.3 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "226db4ce-083d-453c-bce2-a1db7c5b57bc")
+		(property "Reference" "D14"
+			(at 118.11 71.1199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 110.49 71.12 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 114.3 72.39 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 72.39 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a38b5284-4f99-4591-88b3-a8e4b41f1bbe")
+		)
+		(pin "2"
+			(uuid "540a3cc7-762b-4e41-be3f-74cf3d6b3645")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 190.5 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "236ac87b-1d29-4c88-8c14-be479ad9a62a")
+		(property "Reference" "D32"
+			(at 194.31 71.1199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 186.69 71.12 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 190.5 72.39 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 72.39 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "314d0b34-a135-428a-9744-4bb0b3d1f0c2")
+		)
+		(pin "2"
+			(uuid "f4aa5ae1-6543-4bd1-9526-ede28ccde4e1")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 198.12 64.8128 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "261ec490-218e-4908-8821-4ec13094d8a7")
+		(property "Reference" "K32"
+			(at 198.12 58.4628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 198.12 67.3528 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 64.8128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 64.8128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 64.8128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "360ca687-9cc4-4208-899e-21f96dabd208")
+		)
+		(pin "2"
+			(uuid "e4c4a62f-8d30-4116-a30d-09351b40cb7b")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 71.12 83.8628 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2898d76f-afcf-415f-8a7c-0ac1c82f00c6")
+		(property "Reference" "K3"
+			(at 71.12 77.5128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 71.12 86.4028 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 83.8628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 83.8628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 83.8628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f1c3e6a-facb-4c57-add4-862490a571fa")
+		)
+		(pin "2"
+			(uuid "00f380e4-264e-4114-a46c-feab876e87cc")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 165.1 110.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c80d958-bfdc-4d4f-8a46-7365a6d8da6c")
+		(property "Reference" "D28"
+			(at 168.91 109.2199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 161.29 109.22 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70e583e2-7a14-4cb3-b9a3-bebc829fe99f")
+		)
+		(pin "2"
+			(uuid "e00884b0-a2b8-425d-8259-1b13e4d1b381")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 147.32 121.9628 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f0732bf-4fc9-41f0-9244-6c3ac6267000")
+		(property "Reference" "K23"
+			(at 147.32 115.6128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 147.32 124.5028 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 121.9628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 121.9628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 121.9628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c232b15-25fe-410c-8ba3-38c583ee5e3e")
+		)
+		(pin "2"
+			(uuid "512069ef-8f4a-4e51-9f2a-78e755d8fcf3")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 190.5 129.54 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "335e95e6-6d7b-46b8-aeef-7fee585feb4d")
+		(property "Reference" "D35"
+			(at 194.31 128.2699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 186.69 128.27 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 190.5 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de7c6df1-f19c-4035-bf20-01dc7ffccd79")
+		)
+		(pin "2"
+			(uuid "ed0dc2cf-3b71-4dd9-b75b-29e4bc29c644")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 198.12 121.9628 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3361dc47-2c15-4665-ae50-c19f69cc9c70")
+		(property "Reference" "K35"
+			(at 198.12 115.6128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 198.12 124.5028 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 121.9628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 121.9628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 121.9628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2607ec33-5888-418b-b4f4-f769e77e473f")
+		)
+		(pin "2"
+			(uuid "e8d57715-1f32-44ab-8117-2e28aea62fa2")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 198.12 102.9128 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34e1e16b-05f2-4322-b882-6a9777bdd04d")
+		(property "Reference" "K34"
+			(at 198.12 96.5628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 198.12 105.4528 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 102.9128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 102.9128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 102.9128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "393e3010-1375-4fc2-881c-f18ecb2c6e34")
+		)
+		(pin "2"
+			(uuid "9104e94e-44b8-4a14-9b60-7d89248d6386")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 121.92 102.9128 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35ff8fa9-5629-492c-9d24-ef66039d901e")
+		(property "Reference" "K16"
+			(at 121.92 96.5628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 121.92 105.4528 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 102.9128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 102.9128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 102.9128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96abb875-1ea8-4d99-9184-39a843526188")
+		)
+		(pin "2"
+			(uuid "f141bacd-0949-4e7e-8545-3cf03304b53e")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 114.3 110.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f89ac28-0fb1-4568-8bb7-e0fd86e09b1b")
+		(property "Reference" "D16"
+			(at 118.11 109.2199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 110.49 109.22 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 114.3 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c87cc61-c652-4ef0-aa1f-05aaf67f85af")
+		)
+		(pin "2"
+			(uuid "f2d593f1-35b9-49be-982d-3c3fdeb1ba97")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 121.92 141.0128 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "422b8652-c0bd-40e4-98ff-cfdc8a6fdfbf")
+		(property "Reference" "K18"
+			(at 121.92 134.6628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 121.92 143.5528 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 141.0128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 141.0128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 141.0128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78dbf7f6-2386-421f-a1c3-2aeea6802c31")
+		)
+		(pin "2"
+			(uuid "ff60ec1b-3591-4c51-be98-62782361f9fc")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 63.5 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47dd938d-0bf0-42a9-b962-2ee3053fa531")
+		(property "Reference" "D3"
+			(at 67.31 90.1699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 59.69 90.17 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 63.5 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9de26735-f353-44ce-bc24-833c16b95f26")
+		)
+		(pin "2"
+			(uuid "2389f6d3-e6be-4b17-9272-c21f00de4786")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 121.92 121.9628 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b2e9c38-bbce-4b48-afdc-7214b51fd4e4")
+		(property "Reference" "K17"
+			(at 121.92 115.6128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 121.92 124.5028 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 121.9628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 121.9628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 121.9628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac7c0f4f-0961-452f-9093-2bd38b1db454")
+		)
+		(pin "2"
+			(uuid "4c4406b9-9679-4ec9-b7e3-f63d107fdb0f")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 121.92 83.8628 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fae763b-34a5-4645-8d3b-288dbd9ce456")
+		(property "Reference" "K15"
+			(at 121.92 77.5128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 121.92 86.4028 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 83.8628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 83.8628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 83.8628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81fccdd7-9b1f-414f-ae92-16118690e5cc")
+		)
+		(pin "2"
+			(uuid "edf7aa65-673d-44ad-a944-006f9a689b09")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 63.5 53.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5511392d-41b9-4ce3-aba4-87ff1d8c786e")
+		(property "Reference" "D1"
+			(at 67.31 52.0699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 59.69 52.07 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 63.5 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63e0bb84-56b0-48ac-a6a2-1a53947924b6")
+		)
+		(pin "2"
+			(uuid "f75c6252-4cad-48b2-93b5-44c836b1175b")
+		)
+		(instances
+			(project ""
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 71.12 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d693c6f-25f5-4a63-9e74-4f92e52e3e76")
+		(property "Reference" "K1"
+			(at 71.12 39.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 71.12 48.26 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7b4da62-a15a-4c2f-a70f-0c8db2fe1330")
+		)
+		(pin "2"
+			(uuid "6ea1053c-d0f8-403b-8753-1f0f6700b819")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 63.5 110.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67763448-afb1-460f-9a0e-879d8b2b58d8")
+		(property "Reference" "D4"
+			(at 67.31 109.2199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 59.69 109.22 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 63.5 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0246a700-877f-4623-9719-f80df7c29ebf")
+		)
+		(pin "2"
+			(uuid "ed1c081c-0bfc-478c-8311-096401a9393f")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 198.12 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69128eca-9404-41bb-82f3-0f2cdb792878")
+		(property "Reference" "K31"
+			(at 198.12 39.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 198.12 48.26 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "125b255c-958f-4732-b3cd-0b9fe3e722be")
+		)
+		(pin "2"
+			(uuid "7a76a3c4-c9e5-4f99-bab7-15d624cc13f7")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 165.1 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6eed82bd-b622-4b36-b004-4386376d2761")
+		(property "Reference" "D30"
+			(at 168.91 147.3199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 161.29 147.32 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 165.1 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d9e927a-3a68-4a1b-8a0d-630ba3f3368c")
+		)
+		(pin "2"
+			(uuid "27650ee5-d51f-49bf-bf17-29bf72629f72")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 172.72 102.9128 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71db6f04-9865-4c88-b99f-8c836dfe71bb")
+		(property "Reference" "K28"
+			(at 172.72 96.5628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 172.72 105.4528 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 102.9128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 102.9128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 102.9128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26ef8762-c390-433b-b8a0-9918deccb0ff")
+		)
+		(pin "2"
+			(uuid "28cabe50-ac04-4928-a1d6-b25e8a3f7ff6")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 121.92 64.8128 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "743b3da1-d852-400d-bea5-9a83beb33c8c")
+		(property "Reference" "K14"
+			(at 121.92 58.4628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 121.92 67.3528 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 64.8128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 64.8128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 64.8128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84e39d78-05b8-4d3d-868a-a79e41423c36")
+		)
+		(pin "2"
+			(uuid "05f41005-e875-4152-a33c-2e1a6bd389f6")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 198.12 83.8628 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74f60d44-8342-4cf1-b373-6e6b51216d05")
+		(property "Reference" "K33"
+			(at 198.12 77.5128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 198.12 86.4028 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 83.8628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 83.8628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 83.8628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ec8eaf5-d6a4-45ef-8a58-00792265391a")
+		)
+		(pin "2"
+			(uuid "042c5dae-c07f-4974-928a-a98c3cbf6dd7")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 63.5 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75e8ae5a-62e7-418f-819e-f28ec82e2f9e")
+		(property "Reference" "D6"
+			(at 67.31 147.3199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 59.69 147.32 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 63.5 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64ecd09e-be65-4332-bd6c-0c806f0c4daf")
+		)
+		(pin "2"
+			(uuid "68c3d2d7-a3f0-4580-89af-59059f18cdff")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 114.3 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "789e5193-b8cf-4fb6-a114-84eb2064b562")
+		(property "Reference" "D15"
+			(at 118.11 90.1699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 110.49 90.17 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 114.3 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e63186ca-26af-4c41-a771-8c3f48d66a33")
+		)
+		(pin "2"
+			(uuid "fb528a5d-f611-41ce-88e9-d634e46a363a")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 96.52 141.0128 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d61d60c-3ce9-4560-bbfa-3d43e62c7a78")
+		(property "Reference" "K12"
+			(at 96.52 134.6628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 96.52 143.5528 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 141.0128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 141.0128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 141.0128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a562a68-4cdf-49a2-8042-2bfc34e50f69")
+		)
+		(pin "2"
+			(uuid "e4c569e0-585a-4897-a26c-5e1efab4ab45")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 147.32 83.8628 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "834683ab-c227-4d88-b3a2-fa547d1c5955")
+		(property "Reference" "K21"
+			(at 147.32 77.5128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 147.32 86.4028 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 83.8628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 83.8628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 83.8628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6eda01e-1ad2-448f-8675-ec78062bdd7a")
+		)
+		(pin "2"
+			(uuid "c1f13855-249d-413a-b1fd-cd94709434c8")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 190.5 53.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85e5c952-4589-487d-83cc-4577170b01c8")
+		(property "Reference" "D31"
+			(at 194.31 52.0699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 186.69 52.07 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 190.5 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c5be0be-5402-4dbc-8387-db1c328f35d1")
+		)
+		(pin "2"
+			(uuid "eb3b7765-4da4-4db9-bad7-9ab7ba9f7e6b")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 114.3 129.54 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8726638d-eb85-43c7-a44b-03b24542d775")
+		(property "Reference" "D17"
+			(at 118.11 128.2699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 110.49 128.27 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 114.3 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba781985-63e0-4ff1-8de6-bd0c4ce0ba96")
+		)
+		(pin "2"
+			(uuid "52461a4c-c377-4792-b679-0cb1fcfdefaf")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 147.32 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ce0109d-ddad-4cdb-a02b-9adc254d87d4")
+		(property "Reference" "K19"
+			(at 147.32 39.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 147.32 48.26 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e548a5cd-536b-41ff-80c9-676cbf7bf0c8")
+		)
+		(pin "2"
+			(uuid "4dba6270-e201-4aab-ad63-5e2b044de57b")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 96.52 102.9128 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90e9aeb8-d91f-4195-9481-edbb4547d599")
+		(property "Reference" "K10"
+			(at 96.52 96.5628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 96.52 105.4528 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 102.9128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 102.9128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 102.9128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81fde324-9dbf-4e6f-a9a9-0a170913245c")
+		)
+		(pin "2"
+			(uuid "04210bc3-4716-473a-afc9-4e443d0d1580")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 71.12 64.8128 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "911a2c87-a3fc-4e82-b96e-8baf0b753bd0")
+		(property "Reference" "K2"
+			(at 71.12 58.4628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 71.12 67.3528 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 64.8128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 64.8128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 64.8128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc0b4fbd-cfd1-4a0d-bb7d-e4fb5552d8e2")
+		)
+		(pin "2"
+			(uuid "2509bd15-256a-4292-997f-53e0337088c5")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 88.9 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93adeb70-a55a-41e0-8f35-95061ad8700c")
+		(property "Reference" "D8"
+			(at 92.71 71.1199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 85.09 71.12 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 88.9 72.39 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 72.39 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31c5bc11-255b-4941-a028-b69efe92c37b")
+		)
+		(pin "2"
+			(uuid "35307582-705f-4fc0-a7b8-68b56e956fd7")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 114.3 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "943b40db-3dcc-43b8-8229-a90def13bca1")
+		(property "Reference" "D18"
+			(at 118.11 147.3199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 110.49 147.32 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 114.3 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f25c8d0-7ac9-4b13-a8d1-f2cf603a7c32")
+		)
+		(pin "2"
+			(uuid "7fd230fa-f669-493a-8d9c-f3aa8e9d7aca")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 139.7 129.54 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94c0bea3-dabe-4330-9ed1-c6491fe4ea31")
+		(property "Reference" "D23"
+			(at 143.51 128.2699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 135.89 128.27 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 139.7 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cb67144-780a-48ce-aeac-318b22c0d546")
+		)
+		(pin "2"
+			(uuid "321dee8e-4ecb-42da-aa86-48b34a33d6be")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 63.5 129.54 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9601d53f-7964-4e9b-ae05-8c08bbbb88b3")
+		(property "Reference" "D5"
+			(at 67.31 128.2699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 59.69 128.27 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 63.5 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d91fbfeb-bba6-4169-a670-b319c4e8891f")
+		)
+		(pin "2"
+			(uuid "5427f69f-5977-418a-b219-6bf1885ff0f5")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 71.12 102.9128 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97b65679-f224-4b1f-9f48-566db562a715")
+		(property "Reference" "K4"
+			(at 71.12 96.5628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 71.12 105.4528 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 102.9128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 102.9128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 102.9128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15071318-fd23-43e5-986b-f63a4014075f")
+		)
+		(pin "2"
+			(uuid "bbe243be-ec87-4dcc-9594-4735571a3030")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 121.92 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "989b3e4a-145b-4d79-9578-38f871e2a1bc")
+		(property "Reference" "K13"
+			(at 121.92 39.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 121.92 48.26 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "719d9e6d-e7d2-47ad-a83b-82a07b0131ab")
+		)
+		(pin "2"
+			(uuid "ecce06b8-54fc-42b9-8f5a-5d1e9261670c")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 190.5 110.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "996128de-f701-453c-9cd0-e01fbaae1c0a")
+		(property "Reference" "D34"
+			(at 194.31 109.2199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 186.69 109.22 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 190.5 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abbe7dae-8fc2-41d4-88c3-fc3209e9f9de")
+		)
+		(pin "2"
+			(uuid "cc322c9f-2849-4f8f-b15a-6e784690c78e")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 88.9 129.54 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a74c821-74ba-4cff-84d5-2e38154c5f29")
+		(property "Reference" "D11"
+			(at 92.71 128.2699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 85.09 128.27 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 88.9 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ca0f954-ea70-4dc9-b8dc-8f87c62e3867")
+		)
+		(pin "2"
+			(uuid "fb705699-c92e-4a39-8495-6e236d7fd0e5")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 139.7 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ef31a10-cb3c-4387-b567-d0ca87385bee")
+		(property "Reference" "D24"
+			(at 143.51 147.3199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 135.89 147.32 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 139.7 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27ebb684-3152-4cec-9841-257fe94632bb")
+		)
+		(pin "2"
+			(uuid "8ee88c4f-03a8-4562-890f-8a64a6454d83")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 190.5 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f07f2df-1537-4ad4-8432-ee3b1e91ea82")
+		(property "Reference" "D33"
+			(at 194.31 90.1699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 186.69 90.17 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 190.5 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cf3ffba-0001-4733-8472-400eefb50150")
+		)
+		(pin "2"
+			(uuid "e37c4050-0a71-4536-9825-5c7f73a766c9")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 139.7 110.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6d79123-5f87-43dc-ad94-7a86fcf4921e")
+		(property "Reference" "D22"
+			(at 143.51 109.2199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 135.89 109.22 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 139.7 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77a2d9e7-d4b0-46e5-a39a-48f08e152314")
+		)
+		(pin "2"
+			(uuid "0bc0772a-d6dc-4e43-82e7-feba6412af06")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 165.1 129.54 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa1d4056-c1b2-4b8a-9458-2e98cfe9c837")
+		(property "Reference" "D29"
+			(at 168.91 128.2699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 161.29 128.27 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 165.1 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45cab7b1-069e-4e22-87e6-09cb8ee91488")
+		)
+		(pin "2"
+			(uuid "20abceae-a53c-4ea6-85c6-212b5ac93596")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 165.1 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa299db4-021f-4c04-8bea-3d18fcc855be")
+		(property "Reference" "D26"
+			(at 168.91 71.1199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 161.29 71.12 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 165.1 72.39 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 72.39 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8557509-bd69-416a-a8d8-3c2eb7692577")
+		)
+		(pin "2"
+			(uuid "83b02bcb-b1b7-4dfb-b596-f9f7655d556b")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 88.9 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b05bdc30-ad59-4df0-a3d7-75519d5c2c56")
+		(property "Reference" "D12"
+			(at 92.71 147.3199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 85.09 147.32 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 88.9 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca8b46db-01e3-4ec1-87d2-21f54d7db338")
+		)
+		(pin "2"
+			(uuid "477f552f-333a-4637-8156-e03b9d723214")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 172.72 141.0128 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd472ada-ef66-4189-a227-b6d1c4d36450")
+		(property "Reference" "K30"
+			(at 172.72 134.6628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 172.72 143.5528 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 141.0128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 141.0128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 141.0128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "206988b1-70ad-4905-8194-552d8a3458c1")
+		)
+		(pin "2"
+			(uuid "5ba00d79-b65a-4a40-b277-9d0169c6ea5d")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 172.72 121.9628 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c256d451-5638-4cfd-80ce-43d2d7867a95")
+		(property "Reference" "K29"
+			(at 172.72 115.6128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 172.72 124.5028 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 121.9628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 121.9628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 121.9628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b582eb4-05cc-4e87-860d-b0c61b39063f")
+		)
+		(pin "2"
+			(uuid "1af97d8b-bbea-43cc-b649-912aa8c482df")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 165.1 53.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c947f560-d8f4-4170-ae0e-f3ca622d2c05")
+		(property "Reference" "D25"
+			(at 168.91 52.0699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 161.29 52.07 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 165.1 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "764f0577-eb8f-43b5-92e5-ecc4451a242b")
+		)
+		(pin "2"
+			(uuid "b2a2907b-d1b0-4f26-9040-8512a0c1130d")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 96.52 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d420b1ab-b954-4917-bca7-b5fb82c148e5")
+		(property "Reference" "K7"
+			(at 96.52 39.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 96.52 48.26 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71af2420-4e5f-4262-b9c2-ee7518abac15")
+		)
+		(pin "2"
+			(uuid "47af626a-5313-4c38-a53f-3c8e1581c927")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 96.52 64.8128 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcc82655-e32a-4256-9630-3120a1573611")
+		(property "Reference" "K8"
+			(at 96.52 58.4628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 96.52 67.3528 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 64.8128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 64.8128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 64.8128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "591836bd-e8b1-4229-901c-bcba12eac671")
+		)
+		(pin "2"
+			(uuid "59253949-1265-48bf-a677-0789b6abdee2")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 172.72 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd6b43d7-9a9e-4960-b0fd-9ea196a99b19")
+		(property "Reference" "K25"
+			(at 172.72 39.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 172.72 48.26 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "317b96b3-eb7a-455c-8331-9dad7751b2a3")
+		)
+		(pin "2"
+			(uuid "d79dc544-e72c-469a-8bc3-d75365dc7603")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 139.7 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dde6b4bc-f082-4d23-b2bc-abf495023229")
+		(property "Reference" "D21"
+			(at 143.51 90.1699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 135.89 90.17 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f716d792-7f9d-4b40-a249-7b45b16b230d")
+		)
+		(pin "2"
+			(uuid "b6e5371a-ae12-42b9-8be6-adbc85dda1df")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 96.52 121.9628 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4f98f22-8d84-4bf8-8ab5-d1c16dc6e9b1")
+		(property "Reference" "K11"
+			(at 96.52 115.6128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 96.52 124.5028 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 121.9628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 121.9628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 121.9628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92d9940b-d1e1-442c-8984-f26598be0adb")
+		)
+		(pin "2"
+			(uuid "8f10575e-568e-4675-8033-dc8268da576e")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 147.32 102.9128 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8914606-77dc-492c-b78c-68af58de2685")
+		(property "Reference" "K22"
+			(at 147.32 96.5628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 147.32 105.4528 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 102.9128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 102.9128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 102.9128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f539c1df-9b9d-46c9-8253-fe9c402b9d30")
+		)
+		(pin "2"
+			(uuid "e5e8ffb0-a3df-47a7-9c1e-647b8af03324")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 147.32 64.8128 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f083fff1-2104-4fe9-bb39-25629559ce75")
+		(property "Reference" "K20"
+			(at 147.32 58.4628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 147.32 67.3528 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 64.8128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 64.8128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 64.8128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "456efddd-6b27-4c37-bf51-2f514a398b8d")
+		)
+		(pin "2"
+			(uuid "2a8ad2de-1e5e-46d3-a119-2fb951eeba0b")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:KEYSW")
+		(at 71.12 121.9628 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3bae58d-342c-4c95-8aef-d6eb464fafa3")
+		(property "Reference" "K5"
+			(at 71.12 115.6128 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KEYSW"
+			(at 71.12 124.5028 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 121.9628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 121.9628 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 121.9628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4470f240-f3a6-486d-a59d-76a5c47e3a59")
+		)
+		(pin "2"
+			(uuid "21398e59-d355-4079-a55e-ff57ba1ef471")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "K5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 139.7 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa68a043-b48f-4f9e-9411-bab417f6f90f")
+		(property "Reference" "D20"
+			(at 143.51 71.1199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 135.89 71.12 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 139.7 72.39 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 72.39 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4497ca91-aa96-4274-8591-a2bd22c645ed")
+		)
+		(pin "2"
+			(uuid "304139bf-ac1e-42cd-badc-e6e13730aca5")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard_parts:D")
+		(at 190.5 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fffe3191-07aa-4ad7-ac2f-84bf27bac421")
+		(property "Reference" "D36"
+			(at 194.31 147.3199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 186.69 147.32 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "keyboard_parts:D_SOD123_hand"
+			(at 190.5 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f1dae43-0b07-40a9-8f49-d2c9f94539ba")
+		)
+		(pin "2"
+			(uuid "265767b8-6a67-48c7-9989-7a3bfdd8c019")
+		)
+		(instances
+			(project "Keyboard-REV1"
+				(path "/59fa2596-e3b6-48c4-bd47-886ed418d5a3/b99f820c-a26c-4ad6-ae42-8735410c0775"
+					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
