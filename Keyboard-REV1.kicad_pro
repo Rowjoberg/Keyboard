@@ -478,50 +478,7 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "/Keys/col0": [
-        "col"
-      ],
-      "/Keys/col1": [
-        "col"
-      ],
-      "/Keys/col2": [
-        "col"
-      ],
-      "/Keys/col3": [
-        "col"
-      ],
-      "/Keys/col4": [
-        "col"
-      ],
-      "/Keys/col5": [
-        "col"
-      ],
-      "/Keys/col[0..5]": [
-        "col"
-      ],
-      "/Keys/row0": [
-        "row"
-      ],
-      "/Keys/row1": [
-        "row"
-      ],
-      "/Keys/row2": [
-        "row"
-      ],
-      "/Keys/row3": [
-        "row"
-      ],
-      "/Keys/row4": [
-        "row"
-      ],
-      "/Keys/row5": [
-        "row"
-      ],
-      "/Keys/row[0..5]": [
-        "row"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
